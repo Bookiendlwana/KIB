@@ -5,27 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Camera, Video, Play, X, ChevronLeft, ChevronRight, Images } from "lucide-react";
 
-// Import all gallery images and video
-import img1 from "@assets/WhatsApp Image 2025-08-26 at 20.10.21 (1)_1757330687489.jpeg";
-import img2 from "@assets/WhatsApp Image 2025-08-26 at 20.10.22 (1)_1757330687489.jpeg";
-import img3 from "@assets/WhatsApp Image 2025-08-26 at 20.10.22_1757330687489.jpeg";
-import img4 from "@assets/WhatsApp Image 2025-08-26 at 20.10.23 (1)_1757330687488.jpeg";
-import img5 from "@assets/WhatsApp Image 2025-08-26 at 20.10.23 (2)_1757330687487.jpeg";
-import img6 from "@assets/WhatsApp Image 2025-08-26 at 20.10.23_1757330687488.jpeg";
-import img7 from "@assets/WhatsApp Image 2025-08-26 at 20.10.24 (1)_1757330687486.jpeg";
-import img8 from "@assets/WhatsApp Image 2025-08-26 at 20.10.24 (2)_1757330687486.jpeg";
-import img9 from "@assets/WhatsApp Image 2025-08-26 at 20.10.24_1757330687487.jpeg";
-import img10 from "@assets/WhatsApp Image 2025-08-26 at 20.10.25 (1)_1757330687486.jpeg";
-import img11 from "@assets/WhatsApp Image 2025-08-26 at 20.10.26_1757330687486.jpeg";
-import img12 from "@assets/WhatsApp Image 2025-08-26 at 20.10.28 (1)_1757330687485.jpeg";
-import img13 from "@assets/WhatsApp Image 2025-08-26 at 20.10.28 (2)_1757330687485.jpeg";
-import img14 from "@assets/WhatsApp Image 2025-08-26 at 20.10.28_1757330687485.jpeg";
-import img15 from "@assets/WhatsApp Image 2025-08-26 at 20.10.29 (1)_1757330687484.jpeg";
-import img16 from "@assets/WhatsApp Image 2025-08-26 at 20.10.29_1757330687485.jpeg";
-import img17 from "@assets/WhatsApp Image 2025-08-26 at 20.10.30 (1)_1757330687484.jpeg";
-import img18 from "@assets/WhatsApp Image 2025-08-26 at 20.10.30_1757330687484.jpeg";
-import video1 from "@assets/WhatsApp Video 2025-08-26 at 20.10.27_1757330668549.mp4";
-
 interface GalleryItem {
   id: string;
   type: 'image' | 'video';
@@ -38,25 +17,45 @@ export default function Gallery() {
   const { t } = useTranslation();
   
   const galleryItems: GalleryItem[] = [
-    { id: '1', type: 'image', src: img1, title: t('gallery.items.constructionProgress'), category: t('gallery.categories.buildingWork') },
-    { id: '2', type: 'image', src: img2, title: t('gallery.items.foundationWork'), category: t('gallery.categories.buildingWork') },
-    { id: '3', type: 'image', src: img3, title: t('gallery.items.structuralWork'), category: t('gallery.categories.buildingWork') },
-    { id: '4', type: 'image', src: img4, title: t('gallery.items.interiorWork'), category: t('gallery.categories.renovations') },
-    { id: '5', type: 'image', src: img5, title: t('gallery.items.finishingWork'), category: t('gallery.categories.renovations') },
-    { id: '6', type: 'image', src: img6, title: t('gallery.items.qualityCraftsmanship'), category: t('gallery.categories.buildingWork') },
-    { id: '7', type: 'image', src: img7, title: t('gallery.items.detailWork'), category: t('gallery.categories.renovations') },
-    { id: '8', type: 'image', src: img8, title: t('gallery.items.professionalInstallation'), category: t('gallery.categories.buildingWork') },
-    { id: '9', type: 'image', src: img9, title: t('gallery.items.constructionSite'), category: t('gallery.categories.buildingWork') },
-    { id: '10', type: 'image', src: img10, title: t('gallery.items.projectCompletion'), category: t('gallery.categories.buildingWork') },
-    { id: '11', type: 'image', src: img11, title: t('gallery.items.finalTouches'), category: t('gallery.categories.renovations') },
-    { id: '12', type: 'image', src: img12, title: t('gallery.items.qualityResults'), category: t('gallery.categories.renovations') },
-    { id: '13', type: 'image', src: img13, title: t('gallery.items.professionalWork'), category: t('gallery.categories.buildingWork') },
-    { id: '14', type: 'image', src: img14, title: t('gallery.items.constructionDetails'), category: t('gallery.categories.buildingWork') },
-    { id: '15', type: 'image', src: img15, title: t('gallery.items.renovationWork'), category: t('gallery.categories.renovations') },
-    { id: '16', type: 'image', src: img16, title: t('gallery.items.buildingProgress'), category: t('gallery.categories.buildingWork') },
-    { id: '17', type: 'image', src: img17, title: t('gallery.items.qualityFinish'), category: t('gallery.categories.renovations') },
-    { id: '18', type: 'image', src: img18, title: t('gallery.items.completedWork'), category: t('gallery.categories.renovations') },
-    { id: '19', type: 'video', src: video1, title: t('gallery.items.constructionProcess'), category: t('gallery.categories.buildingWork') },
+    { id: '1', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.21_1_1756736427418.jpeg', title: t('gallery.items.constructionProgress'), category: t('gallery.categories.buildingWork') },
+    { id: '2', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.22_1_1756736427415.jpeg', title: t('gallery.items.foundationWork'), category: t('gallery.categories.buildingWork') },
+    { id: '3', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.22_1756736427417.jpeg', title: t('gallery.items.structuralWork'), category: t('gallery.categories.buildingWork') },
+    { id: '4', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.23_1_1756736427414.jpeg', title: t('gallery.items.interiorWork'), category: t('gallery.categories.renovations') },
+    { id: '5', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.23_2_1756736427413.jpeg', title: t('gallery.items.finishingWork'), category: t('gallery.categories.renovations') },
+    { id: '6', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.23_1756736427414.jpeg', title: t('gallery.items.qualityCraftsmanship'), category: t('gallery.categories.buildingWork') },
+    { id: '7', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.24_1_1756736427411.jpeg', title: t('gallery.items.detailWork'), category: t('gallery.categories.renovations') },
+    { id: '8', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.24_2_1756736427410.jpeg', title: t('gallery.items.professionalInstallation'), category: t('gallery.categories.buildingWork') },
+    { id: '9', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.24_1756736427413.jpeg', title: t('gallery.items.constructionSite'), category: t('gallery.categories.buildingWork') },
+    { id: '10', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.25_1_1756736427408.jpeg', title: t('gallery.items.projectCompletion'), category: t('gallery.categories.buildingWork') },
+    { id: '11', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.26_1756736427407.jpeg', title: t('gallery.items.finalTouches'), category: t('gallery.categories.renovations') },
+    { id: '12', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.28_1_1756736058558.jpeg', title: t('gallery.items.qualityResults'), category: t('gallery.categories.renovations') },
+    { id: '13', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.28_2_1756736058556.jpeg', title: t('gallery.items.professionalWork'), category: t('gallery.categories.buildingWork') },
+    { id: '14', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.28_1756736058560.jpeg', title: t('gallery.items.constructionDetails'), category: t('gallery.categories.buildingWork') },
+    { id: '15', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.29_1_1756736023311.jpeg', title: t('gallery.items.renovationWork'), category: t('gallery.categories.renovations') },
+    { id: '16', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.29_1757330687485.jpeg', title: t('gallery.items.buildingProgress'), category: t('gallery.categories.buildingWork') },
+    { id: '17', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.30_1_1756736023309.jpeg', title: t('gallery.items.qualityFinish'), category: t('gallery.categories.renovations') },
+    { id: '18', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.30_1756736023310.jpeg', title: t('gallery.items.completedWork'), category: t('gallery.categories.renovations') },
+    { id: '19', type: 'video', src: '/attached_assets/WhatsApp Video 2025-08-26 at 20.10.27_1757330668549.mp4', title: t('gallery.items.constructionProcess'), category: t('gallery.categories.buildingWork') },
+    { id: '20', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.10_1_1756736058564.jpeg', title: t('gallery.items.constructionProgress'), category: t('gallery.categories.buildingWork') },
+    { id: '21', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.10_2_1756736058564.jpeg', title: t('gallery.items.foundationWork'), category: t('gallery.categories.buildingWork') },
+    { id: '22', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.10_1_1756736427424.jpeg', title: t('gallery.items.structuralWork'), category: t('gallery.categories.buildingWork') },
+    { id: '23', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.10_2_1756736427423.jpeg', title: t('gallery.items.interiorWork'), category: t('gallery.categories.renovations') },
+    { id: '24', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.12_1_1756736427422.jpeg', title: t('gallery.items.finishingWork'), category: t('gallery.categories.renovations') },
+    { id: '25', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.12_1756736058563.jpeg', title: t('gallery.items.qualityCraftsmanship'), category: t('gallery.categories.buildingWork') },
+    { id: '26', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.12_1756736427422.jpeg', title: t('gallery.items.detailWork'), category: t('gallery.categories.renovations') },
+    { id: '27', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.13_1756736427421.jpeg', title: t('gallery.items.professionalInstallation'), category: t('gallery.categories.buildingWork') },
+    { id: '28', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.15_1_1756736427420.jpeg', title: t('gallery.items.constructionSite'), category: t('gallery.categories.buildingWork') },
+    { id: '29', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.15_1756736427420.jpeg', title: t('gallery.items.projectCompletion'), category: t('gallery.categories.buildingWork') },
+    { id: '30', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.21_1_1757330687489.jpeg', title: t('gallery.items.finalTouches'), category: t('gallery.categories.renovations') },
+    { id: '31', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.22_1_1757330687489.jpeg', title: t('gallery.items.qualityResults'), category: t('gallery.categories.renovations') },
+    { id: '32', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.22_1757330687489.jpeg', title: t('gallery.items.professionalWork'), category: t('gallery.categories.buildingWork') },
+    { id: '33', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.28_2_1757330687485.jpeg', title: t('gallery.items.constructionDetails'), category: t('gallery.categories.buildingWork') },
+    { id: '34', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.29_1_1757330687484.jpeg', title: t('gallery.items.renovationWork'), category: t('gallery.categories.buildingWork') },
+    { id: '35', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.29_1757330687485.jpeg', title: t('gallery.items.buildingProgress'), category: t('gallery.categories.buildingWork') },
+    { id: '36', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.30_1_1757330687484.jpeg', title: t('gallery.items.qualityFinish'), category: t('gallery.categories.renovations') },
+    { id: '37', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.30_1757330687484.jpeg', title: t('gallery.items.completedWork'), category: t('gallery.categories.renovations') },
+    { id: '38', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.31_1_1756736023306.jpeg', title: t('gallery.items.constructionProcess'), category: t('gallery.categories.buildingWork') },
+    { id: '39', type: 'image', src: '/attached_assets/WhatsApp_Image_2025_08_26_at_20.10.31_1756736023307.jpeg', title: t('gallery.items.detailWork'), category: t('gallery.categories.renovations') },
   ];
 
   const categories = [t('gallery.categories.all'), t('gallery.categories.buildingWork'), t('gallery.categories.renovations')];

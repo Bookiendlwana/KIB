@@ -1,3 +1,4 @@
+import ProjectImage from "./ProjectImage";
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
@@ -60,26 +61,22 @@ export default function Projects() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {projects?.slice(0, visibleCount).map((project) => (
-            <div 
-              key={project.id} 
-              className="bg-card rounded-xl border border-border overflow-hidden hover:border-orange-primary/50 transition-all"
+            <div
+              key={project.id}
+              className="bg-card rounded-xl border border-border overflow-hidden hover:border-navy-primary/50 transition-all"
               data-testid={`project-card-${project.id}`}
             >
-              <img 
-                src={project.imageUrl} 
-                alt={project.title} 
-                className="w-full h-48 object-cover"
-              />
+              <ProjectImage src={project.imageUrl} alt={project.title} />
               <div className="p-6">
                 <h4 className="text-lg font-semibold text-foreground mb-2">{project.title}</h4>
                 <p className="text-muted-foreground text-sm mb-3">{project.description}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-orange-primary font-medium">
+                  <span className="text-navy-primary font-medium">
                     {t('projects.year')}: {project.completedYear}
                   </span>
                   <ProjectDetailsModal project={project}>
-                    <button 
-                      className="text-orange-primary hover:text-orange-secondary text-sm font-medium transition-colors"
+                    <button
+                      className="text-navy-primary hover:text-navy-secondary text-sm font-medium transition-colors"
                       data-testid={`project-details-${project.id}`}
                     >
                       {t('projects.viewDetails')}
@@ -93,9 +90,9 @@ export default function Projects() {
 
         {hasMoreProjects && (
           <div className="text-center">
-            <button 
+            <button
               onClick={loadMore}
-              className="bg-orange-primary hover:bg-orange-secondary text-white px-8 py-3 rounded-lg transition-colors font-medium"
+              className="bg-navy-primary hover:bg-navy-secondary text-white px-8 py-3 rounded-lg transition-colors font-medium"
               data-testid="see-more-projects"
             >
               {t('common.view')} {t('nav.projects')}

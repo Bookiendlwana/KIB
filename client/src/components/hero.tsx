@@ -14,7 +14,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0" 
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080')",
+          backgroundImage: "url('/hero-background.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
@@ -29,9 +29,9 @@ export default function Hero() {
             {t('hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link 
-              href="/quote" 
-              className="bg-orange-primary hover:bg-orange-secondary text-white px-8 py-4 rounded-lg transition-colors font-semibold text-lg text-center"
+            <Link
+              href="/quote"
+              className="bg-blue-primary hover:bg-blue-secondary text-white px-8 py-4 rounded-lg transition-colors font-semibold text-lg text-center"
               data-testid="hero-quote-button"
             >
               {t('nav.getQuote')}

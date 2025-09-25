@@ -75,7 +75,7 @@ export default function LanguageSelector() {
             key={language.code}
             onClick={() => handleLanguageChange(language.code)}
             className={`flex items-center justify-between px-3 py-2 cursor-pointer ${
-              currentLanguage.code === language.code ? 'bg-orange-primary/10 text-orange-primary' : ''
+              currentLanguage.code === language.code ? 'bg-navy-primary/10 text-navy-primary' : ''
             }`}
             data-testid={`language-${language.code}`}
           >
@@ -84,7 +84,7 @@ export default function LanguageSelector() {
               <span>{language.name}</span>
             </div>
             {currentLanguage.code === language.code && (
-              <span className="text-orange-primary">✓</span>
+              <span className="text-navy-primary">✓</span>
             )}
           </DropdownMenuItem>
         ))}
@@ -98,7 +98,7 @@ export default function LanguageSelector() {
             key={language.code}
             onClick={() => handleLanguageChange(language.code)}
             className={`flex items-center justify-between px-3 py-2 cursor-pointer ${
-              currentLanguage.code === language.code ? 'bg-orange-primary/10 text-orange-primary' : ''
+              currentLanguage.code === language.code ? 'bg-navy-primary/10 text-navy-primary' : ''
             }`}
             data-testid={`language-${language.code}`}
           >
@@ -107,7 +107,7 @@ export default function LanguageSelector() {
               <span>{language.name}</span>
             </div>
             {currentLanguage.code === language.code && (
-              <span className="text-orange-primary">✓</span>
+              <span className="text-navy-primary">✓</span>
             )}
           </DropdownMenuItem>
         ))}
@@ -121,7 +121,7 @@ export default function LanguageSelector() {
             key={language.code}
             onClick={() => handleLanguageChange(language.code)}
             className={`flex items-center justify-between px-3 py-2 cursor-pointer ${
-              currentLanguage.code === language.code ? 'bg-orange-primary/10 text-orange-primary' : ''
+              currentLanguage.code === language.code ? 'bg-navy-primary/10 text-navy-primary' : ''
             }`}
             data-testid={`language-${language.code}`}
           >
@@ -130,7 +130,7 @@ export default function LanguageSelector() {
               <span>{language.name}</span>
             </div>
             {currentLanguage.code === language.code && (
-              <span className="text-orange-primary">✓</span>
+              <span className="text-navy-primary">✓</span>
             )}
           </DropdownMenuItem>
         ))}

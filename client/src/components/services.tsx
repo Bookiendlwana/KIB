@@ -5,70 +5,105 @@ const getServices = (t: any) => [
   {
     icon: Grid3x3,
     title: t('services.tiling'),
-    description: t('services.tilingDesc')
+    description: t('services.tilingDesc', { returnObjects: true })
   },
   {
-    icon: Layers,
+    icon: Wrench,
     title: t('services.plastering'),
-    description: t('services.plasteringDesc')
+    description: t('services.plasteringDesc', { returnObjects: true })
   },
   {
-    icon: Square,
+    icon: Building,
     title: t('services.brickwork'),
-    description: t('services.brickworkDesc')
+    description: t('services.brickworkDesc', { returnObjects: true })
   },
   {
     icon: PaintBucket,
     title: t('services.painting'),
-    description: t('services.paintingDesc')
+    description: t('services.paintingDesc', { returnObjects: true })
   },
   {
-    icon: Building,
+    icon: Square,
     title: t('services.paving'),
-    description: t('services.pavingDesc')
+    description: t('services.pavingDesc', { returnObjects: true })
   },
   {
     icon: Droplets,
     title: t('services.plumbing'),
-    description: t('services.plumbingDesc')
+    description: t('services.plumbingDesc', { returnObjects: true })
   },
   {
     icon: Hammer,
     title: t('services.carpentry'),
-    description: t('services.carpentryDesc')
+    description: t('services.carpentryDesc', { returnObjects: true })
   },
   {
-    icon: Wrench,
+    icon: Shield,
     title: t('services.maintenance'),
-    description: t('services.maintenanceDesc')
+    description: t('services.maintenanceDesc', { returnObjects: true })
   }
 ];
 
+
 export default function Services() {
   const { t } = useTranslation();
-  
+
   return (
     <section id="services" className="py-20 bg-gray-light">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h3 className="text-4xl font-bold text-gray-900 mb-4">{t('services.title')}</h3>
-          <p className="text-xl text-gray-neutral max-w-2xl mx-auto">
+          <h3 className="text-4xl font-bold text-navy-primary mb-4">{t('services.title')}</h3>
+          <p className="text-xl text-navy-light max-w-2xl mx-auto">
             {t('services.subtitle')}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="space-y-10">
           {getServices(t).map((service, index) => (
-            <div 
-              key={index} 
-              className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow"
+            <div
+              key={index}
+              className="flex flex-col md:flex-row bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow border border-navy-primary/10"
               data-testid={`service-card-${index}`}
             >
-              <div className="text-orange-primary text-4xl mb-4">
-                <service.icon className="h-10 w-10" />
+              <div className="flex-shrink-0 flex flex-col items-center justify-center p-8 bg-white rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-200">
+                <div className="mb-4">
+                  <img
+                    src="/logo.png"
+                    alt="Kanguya Builders Logo"
+                    className="w-20 h-20 max-w-20 max-h-20 rounded-full shadow-lg border border-navy-primary/20 object-contain bg-white p-1"
+                    style={{ aspectRatio: '1 / 1', display: 'block' }}
+                  />
+                </div>
+                <h4 className="text-2xl font-bold text-black text-center">{service.title}</h4>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">{service.title}</h4>
-              <p className="text-gray-neutral">{service.description}</p>
+              <div className="flex-1 p-8">
+                {Array.isArray(service.description) ? (
+                  <ul className="space-y-2">
+                    {service.description.map((point: string, i: number) => {
+                      // Bold section headers if present
+                      if (point.startsWith('What we do:')) {
+                        return <li key={i}><span className="font-semibold text-black">What we do:</span> {point.replace('What we do:', '').trim()}</li>;
+                      }
+                      if (point.startsWith('Process:')) {
+                        return <li key={i}><span className="font-semibold text-black">Process:</span> {point.replace('Process:', '').trim()}</li>;
+                      }
+                      if (point.startsWith('Requirements:')) {
+                        return <li key={i}><span className="font-semibold text-black">Requirements:</span> {point.replace('Requirements:', '').trim()}</li>;
+                      }
+                      if (point.startsWith('Time frame:')) {
+                        return <li key={i}><span className="font-semibold text-black">Time frame:</span></li>;
+                      }
+                      // Indent time frame sub-points
+                      if (point.match(/^(Small|Large|Single|Full|Minor|Larger|Standard|Full exterior|Small jobs|Large projects|Small repairs)/)) {
+                        return <li key={i} className="ml-6 list-disc text-black">{point}</li>;
+                      }
+                      return <li key={i} className="text-black">{point}</li>;
+                    })}
+                  </ul>
+                ) : (
+                  <p className="text-navy-light">{service.description}</p>
+                )}
+              </div>
             </div>
           ))}
         </div>

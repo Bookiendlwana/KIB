@@ -37,8 +37,10 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
               className="w-full h-64 object-cover rounded-lg"
             />
             <div className="absolute top-4 left-4">
-              <Badge variant="secondary" className="bg-orange-primary text-white">
-                {project.category.charAt(0).toUpperCase() + project.category.slice(1)}
+              <Badge variant="secondary" className="bg-navy-primary text-white">
+                {project.category
+                  ? project.category.charAt(0).toUpperCase() + project.category.slice(1)
+                  : ""}
               </Badge>
             </div>
           </div>
@@ -47,22 +49,22 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-muted-foreground">
-                <MapPin className="h-4 w-4 text-orange-primary" />
+                <MapPin className="h-4 w-4 text-navy-primary" />
                 <span>{project.location}</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
-                <Calendar className="h-4 w-4 text-orange-primary" />
+                <Calendar className="h-4 w-4 text-navy-primary" />
                 <span>Completed {project.completedYear}</span>
               </div>
               {project.duration && (
                 <div className="flex items-center gap-2 text-muted-foreground">
-                  <Clock className="h-4 w-4 text-orange-primary" />
+                  <Clock className="h-4 w-4 text-navy-primary" />
                   <span>Duration: {project.duration}</span>
                 </div>
               )}
               {project.teamSize && (
                 <div className="flex items-center gap-2 text-muted-foreground">
-                  <Users className="h-4 w-4 text-orange-primary" />
+                  <Users className="h-4 w-4 text-navy-primary" />
                   <span>Team Size: {project.teamSize}</span>
                 </div>
               )}
@@ -80,7 +82,7 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
           {project.detailedDescription && (
             <div>
               <h4 className="font-semibold text-foreground mb-3 flex items-center gap-2">
-                <CheckCircle className="h-5 w-5 text-orange-primary" />
+                <CheckCircle className="h-5 w-5 text-navy-primary" />
                 Project Overview
               </h4>
               <p className="text-muted-foreground leading-relaxed">{project.detailedDescription}</p>
@@ -91,7 +93,7 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
           {project.projectScope && project.projectScope.length > 0 && (
             <div>
               <h4 className="font-semibold text-foreground mb-3 flex items-center gap-2">
-                <Wrench className="h-5 w-5 text-orange-primary" />
+                <Wrench className="h-5 w-5 text-navy-primary" />
                 Project Scope
               </h4>
               <div className="grid md:grid-cols-2 gap-2">
@@ -110,7 +112,7 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
             {project.challenges && (
               <div>
                 <h4 className="font-semibold text-foreground mb-3 flex items-center gap-2">
-                  <AlertTriangle className="h-5 w-5 text-orange-primary" />
+                  <AlertTriangle className="h-5 w-5 text-navy-primary" />
                   Challenges
                 </h4>
                 <p className="text-muted-foreground leading-relaxed">{project.challenges}</p>
@@ -120,7 +122,7 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
             {project.solution && (
               <div>
                 <h4 className="font-semibold text-foreground mb-3 flex items-center gap-2">
-                  <Lightbulb className="h-5 w-5 text-orange-primary" />
+                  <Lightbulb className="h-5 w-5 text-navy-primary" />
                   Our Solution
                 </h4>
                 <p className="text-muted-foreground leading-relaxed">{project.solution}</p>
@@ -134,7 +136,7 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
               <h4 className="font-semibold text-foreground mb-3">Materials & Equipment</h4>
               <div className="flex flex-wrap gap-2">
                 {project.materials.map((material, index) => (
-                  <Badge key={index} variant="outline" className="border-orange-primary/20 text-foreground">
+                  <Badge key={index} variant="outline" className="border-navy-primary/20 text-foreground">
                     {material}
                   </Badge>
                 ))}
@@ -151,7 +153,7 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href="tel:+27790562847"
-                className="bg-orange-primary hover:bg-orange-secondary text-white px-6 py-2 rounded-lg transition-colors font-medium text-center"
+                className="bg-navy-primary hover:bg-navy-secondary text-white px-6 py-2 rounded-lg transition-colors font-medium text-center"
                 data-testid="modal-call-now"
               >
                 Call Now: +27 79 056 2847
@@ -160,7 +162,7 @@ export default function ProjectDetailsModal({ project, children }: ProjectDetail
                 href="https://wa.me/27790562847?text=Hi%20Kanguya%20Builders!%20I%20saw%20your%20project%20and%20I%27m%20interested%20in%20similar%20construction%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-orange-primary text-orange-primary hover:bg-orange-primary hover:text-white px-6 py-2 rounded-lg transition-colors font-medium text-center"
+                className="border border-navy-primary text-navy-primary hover:bg-navy-primary hover:text-white px-6 py-2 rounded-lg transition-colors font-medium text-center"
                 data-testid="modal-whatsapp"
               >
                 Chat on WhatsApp

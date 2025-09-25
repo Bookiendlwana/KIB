@@ -37,21 +37,77 @@
     "title": "Our Construction Services",
     "subtitle": "Comprehensive building and renovation solutions with 14+ years of experience",
     "tiling": "Tiling",
-    "tilingDesc": "Professional tile installation for floors, walls, and backsplashes",
+    "tilingDesc": [
+      "What we do: Install tiles on floors, walls, bathrooms, and kitchen backsplashes.",
+      "Process: Surface preparation → leveling → waterproofing (if required) → precision cutting → grouting.",
+      "Requirements: Customer chooses tile type (ceramic, porcelain, marble, or mosaic).",
+      "Time frame:",
+      "Small rooms: 1–3 days",
+      "Large spaces: 1–2 weeks"
+    ],
     "plastering": "Plastering",
-    "plasteringDesc": "Expert plastering services for interior and exterior walls",
+    "plasteringDesc": [
+      "What we do: Smooth and strengthen interior and exterior walls.",
+      "Process: Wall cleaning → repair cracks → apply plaster coats → finishing for paint/wallpaper.",
+      "Requirements: Clear access to the walls; we supply all materials.",
+      "Time frame:",
+      "Single room: 2–3 days",
+      "Large/exterior walls: 1–2 weeks"
+    ],
     "brickwork": "Brickwork",
-    "brickworkDesc": "Quality brickwork construction for structural and decorative applications",
+    "brickworkDesc": [
+      "What we do: Build structural and decorative walls, extensions, and features.",
+      "Process: Foundation preparation → bricklaying → alignment and finishing.",
+      "Requirements: Customer decides wall design/materials; we guide and source where needed.",
+      "Time frame:",
+      "Small garden walls/features: 2–4 days",
+      "Larger projects: Several weeks"
+    ],
     "painting": "Painting",
-    "paintingDesc": "Interior and exterior painting services with premium finishes",
+    "paintingDesc": [
+      "What we do: Interior and exterior painting for homes and businesses.",
+      "Process: Wall prep (scraping, sanding, undercoating) → high-quality paint application → protective finishes.",
+      "Requirements: Customer chooses colors and finishes; we provide paint and tools.",
+      "Time frame:",
+      "Standard room: 1–2 days",
+      "Full exterior house: 1–2 weeks"
+    ],
     "paving": "Paving",
-    "pavingDesc": "Driveway and walkway paving with durable materials",
+    "pavingDesc": [
+      "What we do: Install paving for driveways, patios, walkways, and outdoor areas.",
+      "Process: Excavation → ground preparation → base installation → laying pavers/stones.",
+      "Requirements: Customer selects paving material (concrete blocks, clay bricks, or natural stone).",
+      "Time frame:",
+      "Small walkway: 2–3 days",
+      "Large driveways/patios: 1–2 weeks"
+    ],
     "plumbing": "Plumbing",
-    "plumbingDesc": "Complete plumbing installation and repair services",
+    "plumbingDesc": [
+      "What we do: Install and repair household and commercial plumbing systems.",
+      "Process: Pipe fitting → fixture installation (taps, sinks, showers, toilets) → leak detection and repair → drainage solutions.",
+      "Requirements: Customer chooses fixtures (style/brand); we handle technical work.",
+      "Time frame:",
+      "Small repairs: A few hours",
+      "Full installations (kitchen/bathroom): 3–7 days"
+    ],
     "carpentry": "Carpentry",
-    "carpentryDesc": "Custom woodwork and carpentry solutions",
+    "carpentryDesc": [
+      "What we do: Custom woodwork for furniture, fittings, and structural needs.",
+      "Process: Design consultation → wood selection → cutting and assembly → finishing and installation.",
+      "Requirements: Customer provides design preferences; we advise on wood and finishes.",
+      "Time frame:",
+      "Small jobs (door fitting, shelving): Hours–1 day",
+      "Large projects (roofing, furniture): Several days–3 weeks"
+    ],
     "maintenance": "Maintenance",
-    "maintenanceDesc": "Ongoing maintenance and repair services"
+    "maintenanceDesc": [
+      "What we do: Ongoing upkeep and repairs for residential and commercial properties.",
+      "Process: Routine checks → fixing issues → painting touch-ups → replacing fixtures → preventive maintenance.",
+      "Requirements: Customer books one-time or ongoing visits; we supply all tools and materials.",
+      "Time frame:",
+      "Minor repairs: Few hours",
+      "Larger maintenance projects: 1–3 days or more"
+    ]
   },
   "projects": {
     "title": "Our Special Projects",

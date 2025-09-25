@@ -10,7 +10,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Phone, Mail, MessageSquare, MapPin } from "lucide-react";
-import { SiWhatsapp, SiFacebook } from "react-icons/si";
+import { SiWhatsapp, SiFacebook, SiYoutube } from "react-icons/si";
+
 import type { InsertContactMessage } from "@shared/schema";
 
 export default function Contact() {
@@ -119,7 +120,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <a 
-                  href="https://www.facebook.com/kanguyabuilders" 
+                  href="https://www.facebook.com/profile.php?id=61580674452616" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-700 font-medium flex items-center"
@@ -140,13 +141,35 @@ export default function Contact() {
                     <p className="text-muted-foreground">{t('contact.emailDescription')}</p>
                   </div>
                 </div>
-                <a 
-                  href="mailto:info@kanguyabuilders.com" 
+                <a
+                  href="mailto:Kanguyabuilders@gmail.com"
                   className="text-navy-primary hover:text-navy-secondary font-medium"
                   data-testid="contact-email"
                 >
-                  info@kanguyabuilders.com
+                  Kanguyabuilders@gmail.com
                 </a>
+                </div>
+
+                <div className="bg-card p-6 rounded-xl border border-border">
+                  <div className="flex items-center mb-4">
+                    <div className="bg-red-600 text-white p-3 rounded-full mr-4">
+                      <SiYoutube className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-foreground">YouTube</h4>
+                      <p className="text-muted-foreground">Watch our latest videos and project showcases on our YouTube channel.</p>
+                    </div>
+                  </div>
+                  <a 
+                    href="https://www.youtube.com/@KanguyaBuilders" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-700 font-medium flex items-center"
+                    data-testid="contact-youtube"
+                  >
+                    <SiYoutube className="mr-2 h-4 w-4" />
+                    Kanguya Builders
+                  </a>
               </div>
 
               <div className="bg-card p-6 rounded-xl border border-border">

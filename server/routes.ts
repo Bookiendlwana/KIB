@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
-import { storage } from "./storage";
-import { insertQuoteRequestSchema, insertContactMessageSchema, insertReviewSchema } from "@shared/schema";
+import { storage } from "./storage.ts";
+import { insertQuoteRequestSchema, insertContactMessageSchema, insertReviewSchema } from "../shared/schema.ts";
 import path from "path";
 import fs from "fs";
 import { z } from "zod";

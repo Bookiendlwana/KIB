@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import LogoImage from "./LogoImage";
+
 import { Menu, X, Phone } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
 import { Link, useLocation } from "wouter";
@@ -29,9 +31,8 @@ export default function Header() {
       <nav className="container mx-auto px-8 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-4 group">
-            <div className="w-12 h-12 bg-gradient-to-br from-navy-primary to-navy-secondary rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 border border-navy-primary/20">
-              <span className="text-white font-bold text-xl">K</span>
-            </div>
+            {/* Improved fallback logic to prevent repeated blinking */}
+            <LogoImage />
             <div className="flex flex-col">
               <span className="text-2xl font-bold text-white">Kanguya Builders</span>
               <span className="text-xs text-navy-light font-medium tracking-wider">{t('header.tagline')}</span>
@@ -196,27 +197,27 @@ export default function Header() {
               >
                 {t('nav.contact')}
               </Link>
-              <a 
-                href="tel:+27790562847" 
-                className="text-muted-foreground hover:text-orange-primary transition-colors flex items-center"
+              <a
+                href="tel:+27790562847"
+                className="text-muted-foreground hover:text-navy-primary transition-colors flex items-center"
                 data-testid="mobile-phone"
               >
                 <Phone className="mr-2 h-4 w-4" />
                 +27 79 056 2847
               </a>
-              <a 
-                href="https://wa.me/27790562847?text=Hi%20Kanguya%20Builders!%20I%27m%20interested%20in%20your%20construction%20services." 
+              <a
+                href="https://wa.me/27790562847?text=Hi%20Kanguya%20Builders!%20I%27m%20interested%20in%20your%20construction%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-orange-primary transition-colors flex items-center"
+                className="text-muted-foreground hover:text-navy-primary transition-colors flex items-center"
                 data-testid="mobile-whatsapp"
               >
                 <SiWhatsapp className="mr-2 h-4 w-4" />
                 Chat on WhatsApp
               </a>
-              <Link 
-                href="/quote" 
-                className="bg-orange-primary hover:bg-orange-secondary text-white px-6 py-2 rounded-lg transition-colors text-center"
+              <Link
+                href="/quote"
+                className="bg-navy-primary hover:bg-navy-secondary text-white px-6 py-2 rounded-lg transition-colors text-center"
                 data-testid="mobile-quote-button"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

@@ -87,7 +87,7 @@ export default function CostEstimator() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Calculator className="mr-2 h-5 w-5 text-orange-primary" />
+                  <Calculator className="mr-2 h-5 w-5 text-blue-primary" />
                   {t('costEstimator.projectDetails')}
                 </CardTitle>
                 <CardDescription>
@@ -178,7 +178,7 @@ export default function CostEstimator() {
 
                   <Button
                     type="submit"
-                    className="w-full bg-orange-primary hover:bg-orange-secondary"
+                    className="w-full bg-blue-primary hover:bg-blue-secondary"
                     data-testid="button-calculate"
                   >
                     <Calculator className="mr-2 h-4 w-4" />
@@ -191,9 +191,9 @@ export default function CostEstimator() {
             {/* Results Section */}
             <div className="space-y-6">
               {estimate ? (
-                <Card className="border-orange-primary/20 bg-orange-primary/5">
+                <Card className="border-blue-primary/20 bg-blue-primary/5">
                   <CardHeader>
-                    <CardTitle className="flex items-center text-orange-primary">
+                    <CardTitle className="flex items-center text-blue-primary">
                       <DollarSign className="mr-2 h-5 w-5" />
                       {t('costEstimator.costEstimate')}
                     </CardTitle>
@@ -214,7 +214,7 @@ export default function CostEstimator() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-neutral">{t('costEstimator.totalEstimate')}</p>
-                        <p className="text-2xl font-bold text-orange-primary">
+                        <p className="text-2xl font-bold text-blue-primary">
                           {formatCurrency(estimate.total)}
                         </p>
                       </div>
@@ -260,7 +260,7 @@ export default function CostEstimator() {
                       <div className="flex flex-col sm:flex-row gap-3">
                         <Button
                           asChild
-                          className="flex-1 bg-orange-primary hover:bg-orange-secondary"
+                          className="flex-1 bg-blue-primary hover:bg-blue-secondary"
                         >
                           <a href="/quote" data-testid="button-get-quote">
                             {t('costEstimator.getDetailedQuote')}

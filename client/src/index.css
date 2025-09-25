@@ -5,49 +5,49 @@
 
 :root {
   --background: hsl(0, 0%, 100%);
-  --foreground: hsl(215, 100%, 15%);
+  --foreground: hsl(210, 100%, 20%);
   --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(215, 100%, 15%);
+  --card-foreground: hsl(210, 100%, 20%);
   --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(215, 100%, 15%);
-  --primary: hsl(215, 100%, 25%);
+  --popover-foreground: hsl(210, 100%, 20%);
+  --primary: hsl(210, 100%, 50%);
   --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(215, 30%, 95%);
-  --secondary-foreground: hsl(215, 100%, 15%);
-  --muted: hsl(215, 30%, 95%);
-  --muted-foreground: hsl(215, 20%, 45%);
-  --accent: hsl(215, 30%, 90%);
-  --accent-foreground: hsl(215, 100%, 15%);
+  --secondary: hsl(210, 50%, 95%);
+  --secondary-foreground: hsl(210, 100%, 20%);
+  --muted: hsl(210, 50%, 95%);
+  --muted-foreground: hsl(210, 20%, 45%);
+  --accent: hsl(210, 50%, 90%);
+  --accent-foreground: hsl(210, 100%, 20%);
   --destructive: hsl(0, 62.8%, 50%);
   --destructive-foreground: hsl(0, 0%, 100%);
-  --border: hsl(215, 30%, 85%);
-  --input: hsl(215, 30%, 95%);
-  --ring: hsl(215, 100%, 25%);
+  --border: hsl(210, 50%, 85%);
+  --input: hsl(210, 50%, 95%);
+  --ring: hsl(210, 100%, 50%);
   --chart-1: hsl(18, 100%, 60%);
   --chart-2: hsl(217, 91%, 60%);
   --chart-3: hsl(142, 76%, 36%);
   --chart-4: hsl(47, 93%, 57%);
   --chart-5: hsl(340, 75%, 51%);
-  --sidebar: hsl(215, 28%, 17%);
+  --sidebar: hsl(210, 28%, 17%);
   --sidebar-foreground: hsl(210, 40%, 98%);
   --sidebar-primary: hsl(18, 100%, 60%);
   --sidebar-primary-foreground: hsl(0, 0%, 100%);
-  --sidebar-accent: hsl(215, 28%, 25%);
+  --sidebar-accent: hsl(210, 28%, 25%);
   --sidebar-accent-foreground: hsl(210, 40%, 98%);
-  --sidebar-border: hsl(215, 28%, 25%);
+  --sidebar-border: hsl(210, 28%, 25%);
   --sidebar-ring: hsl(18, 100%, 60%);
   --font-sans: 'Inter', sans-serif;
   --font-serif: Georgia, serif;
   --font-mono: Menlo, monospace;
   --radius: 0.5rem;
-  
-  /* Custom Kanguya Builders Colors - Professional Navy Theme */
-  --navy-primary: hsl(215, 100%, 25%);
-  --navy-secondary: hsl(215, 95%, 35%);
-  --navy-dark: hsl(215, 100%, 15%);
-  --navy-light: hsl(215, 50%, 70%);
-  --gray-neutral: hsl(215, 20.2%, 65.1%);
-  --gray-light: hsl(215, 28%, 22%);
+
+  /* Custom Kanguya Builders Colors - Blue and White Theme */
+  --navy-primary: hsl(210, 100%, 50%);
+  --navy-secondary: hsl(210, 95%, 35%);
+  --navy-dark: hsl(210, 100%, 20%);
+  --navy-light: hsl(210, 50%, 70%);
+  --gray-neutral: hsl(210, 20.2%, 65.1%);
+  --gray-light: hsl(210, 28%, 22%);
 }
 
 .dark {
@@ -97,91 +97,51 @@
 }
 
 @layer utilities {
-  .orange-primary {
-    color: #FF6B35;
-  }
-  
-  .orange-secondary {
-    color: #FD7F41;
-  }
-  
   .blue-primary {
     color: #1B2951;
   }
-  
+
   .blue-secondary {
     color: #2D3A5C;
   }
-  
+
   .gray-neutral {
     color: #9CA3AF;
   }
-  
-  .bg-orange-primary {
-    background-color: #FF6B35;
-  }
-  
-  .bg-orange-secondary {
-    background-color: #FD7F41;
-  }
-  
+
   .bg-blue-primary {
     background-color: #1B2951;
   }
-  
+
   .bg-blue-secondary {
     background-color: #2D3A5C;
   }
-  
+
   .bg-gray-light {
     background-color: #2D3A5C;
   }
-  
-  .border-orange-primary {
-    border-color: #FF6B35;
-  }
-  
+
   .border-blue-primary {
     border-color: #1B2951;
   }
-  
-  .text-orange-primary {
-    color: #FF6B35;
-  }
-  
-  .text-orange-secondary {
-    color: #FD7F41;
-  }
-  
+
   .text-blue-primary {
     color: #1B2951;
   }
-  
+
   .text-blue-secondary {
     color: #3B82F6;
   }
-  
+
   .text-gray-neutral {
     color: #9CA3AF;
   }
-  
-  .hover\:bg-orange-secondary:hover {
-    background-color: #FD7F41;
-  }
-  
+
   .hover\:bg-blue-secondary:hover {
     background-color: #3B82F6;
   }
-  
-  .hover\:text-orange-primary:hover {
-    color: #FF6B35;
-  }
-  
+
   .hover\:text-blue-secondary:hover {
     color: #3B82F6;
-  }
-  
-  .focus\:ring-orange-primary:focus {
-    --tw-ring-color: #FF6B35;
   }
 }

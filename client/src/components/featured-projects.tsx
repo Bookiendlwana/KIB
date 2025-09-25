@@ -6,14 +6,61 @@ import { Button } from "@/components/ui/button";
 import ProjectDetailsModal from "./project-details-modal";
 import type { Project } from "@shared/schema";
 
+
 export default function FeaturedProjects() {
   const { t } = useTranslation();
   const { data: projects, isLoading } = useQuery<Project[]>({
     queryKey: ["/api/projects"],
   });
 
+  // Fallback demo projects if API fails or returns nothing
+  const demoProjects: Project[] = [
+    {
+      id: "1",
+      title: "16 Holloway, Elsiesriver, Cape Town",
+      description: "Removed old roof, installed new trusses, waterproofed, and painted exterior.",
+      imageUrl: "/assets/brickwork.jpg",
+      completedYear: "2024"
+    },
+    {
+      id: "2",
+      title: "Bathroom Renovation, Cape Town",
+      description: "Full tiling, plumbing, and new fixtures for modern look.",
+      imageUrl: "/assets/tiling.jpg",
+      completedYear: "2023"
+    },
+    {
+      id: "3",
+      title: "Commercial Paving Project, CBD",
+      description: "Installed durable paving for high-traffic business entrance.",
+      imageUrl: "/assets/paving.jpg",
+      completedYear: "2023"
+    },
+    {
+      id: "4",
+      title: "Exterior Painting, Rondebosch",
+      description: "Repainted full exterior, including waterproofing and repairs.",
+      imageUrl: "/assets/painting.jpg",
+      completedYear: "2022"
+    },
+    {
+      id: "5",
+      title: "Plastering & Brickwork, Observatory",
+      description: "Smoothed and strengthened walls, built new garden wall.",
+      imageUrl: "/assets/plastering.jpg",
+      completedYear: "2022"
+    },
+    {
+      id: "6",
+      title: "Carpentry & Maintenance, Woodstock",
+      description: "Custom woodwork, shelving, and ongoing property maintenance.",
+      imageUrl: "/assets/carpentry.jpg",
+      completedYear: "2021"
+    }
+  ];
+
   // Show only first 6 projects on home page
-  const featuredProjects = projects?.slice(0, 6) || [];
+  const featuredProjects = (projects?.length ? projects : demoProjects).slice(0, 6);
 
   if (isLoading) {
     return (
@@ -58,8 +105,8 @@ export default function FeaturedProjects() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {featuredProjects.map((project) => (
             <div 
-              key={project.id} 
-              className="bg-card rounded-xl border border-border overflow-hidden hover:border-orange-primary/50 transition-all"
+              key={project.id}
+              className="bg-card rounded-xl border border-border overflow-hidden hover:border-navy-primary/50 transition-all"
               data-testid={`featured-project-card-${project.id}`}
             >
               <img 
@@ -71,12 +118,12 @@ export default function FeaturedProjects() {
                 <h4 className="text-lg font-semibold text-foreground mb-2">{project.title}</h4>
                 <p className="text-muted-foreground text-sm mb-3">{project.description}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-orange-primary font-medium">
+                  <span className="text-navy-primary font-medium">
                     {t('projects.completed')} {project.completedYear}
                   </span>
                   <ProjectDetailsModal project={project}>
-                    <button 
-                      className="text-orange-primary hover:text-orange-secondary text-sm font-medium transition-colors"
+                    <button
+                      className="text-navy-primary hover:text-navy-secondary text-sm font-medium transition-colors"
                       data-testid={`featured-project-details-${project.id}`}
                     >
                       {t('projects.viewDetails')}
@@ -90,8 +137,8 @@ export default function FeaturedProjects() {
 
         <div className="text-center">
           <Link href="/projects">
-            <Button 
-              className="bg-orange-primary hover:bg-orange-secondary text-white px-8 py-3 rounded-lg font-medium transition-colors"
+            <Button
+              className="bg-navy-primary hover:bg-navy-secondary text-white px-8 py-3 rounded-lg font-medium transition-colors"
               data-testid="see-more-projects"
             >
               See More Projects

@@ -33,27 +33,27 @@ export default function About() {
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('about.philosophy')}</h4>
                 <div className="grid md:grid-cols-2 gap-3">
                   <div className="flex items-start space-x-2">
-                    <div className="w-2 h-2 bg-orange-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-blue-primary rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-neutral text-sm">{t('about.philosophyPoints.safety')}</p>
                   </div>
                   <div className="flex items-start space-x-2">
-                    <div className="w-2 h-2 bg-orange-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-blue-primary rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-neutral text-sm">{t('about.philosophyPoints.planning')}</p>
                   </div>
                   <div className="flex items-start space-x-2">
-                    <div className="w-2 h-2 bg-orange-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-blue-primary rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-neutral text-sm">{t('about.philosophyPoints.communication')}</p>
                   </div>
                   <div className="flex items-start space-x-2">
-                    <div className="w-2 h-2 bg-orange-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-blue-primary rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-neutral text-sm">{t('about.philosophyPoints.tracking')}</p>
                   </div>
                   <div className="flex items-start space-x-2">
-                    <div className="w-2 h-2 bg-orange-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-blue-primary rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-neutral text-sm">{t('about.philosophyPoints.supervision')}</p>
                   </div>
                   <div className="flex items-start space-x-2">
-                    <div className="w-2 h-2 bg-orange-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div className="w-2 h-2 bg-blue-primary rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-neutral text-sm">{t('about.philosophyPoints.completion')}</p>
                   </div>
                 </div>
@@ -62,15 +62,15 @@ export default function About() {
 
             <div className="grid grid-cols-3 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-orange-primary mb-1" data-testid="stat-experience">14+</div>
+                <div className="text-3xl font-bold text-blue-primary mb-1" data-testid="stat-experience">14+</div>
                 <div className="text-gray-neutral text-sm">{t('about.yearsExperience')}</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-orange-primary mb-1" data-testid="stat-projects">500+</div>
+                <div className="text-3xl font-bold text-blue-primary mb-1" data-testid="stat-projects">500+</div>
                 <div className="text-gray-neutral text-sm">{t('about.projectsCompleted')}</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-orange-primary mb-1" data-testid="stat-satisfaction">100%</div>
+                <div className="text-3xl font-bold text-blue-primary mb-1" data-testid="stat-satisfaction">100%</div>
                 <div className="text-gray-neutral text-sm">{t('about.clientSatisfaction')}</div>
               </div>
             </div>

@@ -242,9 +242,9 @@ export default function QuoteForm() {
                 </div>
 
                 <div className="md:col-span-2">
-                  <Button 
-                    type="submit" 
-                    className="w-full bg-orange-primary hover:bg-orange-secondary text-white py-4 text-lg font-semibold"
+                  <Button
+                    type="submit"
+                    className="w-full bg-blue-primary hover:bg-blue-secondary text-white py-4 text-lg font-semibold"
                     disabled={submitQuoteMutation.isPending}
                     data-testid="button-submit-quote"
                   >

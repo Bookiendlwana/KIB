@@ -2,6 +2,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import { SiFacebook, SiX, SiInstagram, SiLinkedin, SiWhatsapp } from "react-icons/si";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
+import LogoImage from "./LogoImage";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -12,11 +13,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <img 
-                src="https://www.kanguyabuilders.com/favicon.jpg" 
-                alt="Kanguya Builders Logo" 
-                className="h-8 w-8 rounded-full"
-              />
+              <LogoImage />
               <h5 className="text-xl font-bold text-foreground">Kanguya Builders</h5>
             </div>
             <p className="text-muted-foreground mb-4">
@@ -27,7 +24,7 @@ export default function Footer() {
                 href="https://www.facebook.com/Kanguyabuilders" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-orange-primary transition-colors"
+                className="text-muted-foreground hover:text-navy-primary transition-colors"
                 data-testid="social-facebook"
               >
                 <SiFacebook className="h-5 w-5" />
@@ -36,21 +33,21 @@ export default function Footer() {
                 href="https://wa.me/27790562847?text=Hi%20Kanguya%20Builders!%20I%27m%20interested%20in%20your%20construction%20services." 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-orange-primary transition-colors"
+                className="text-muted-foreground hover:text-navy-primary transition-colors"
                 data-testid="social-whatsapp"
               >
                 <SiWhatsapp className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
-                className="text-muted-foreground hover:text-orange-primary transition-colors"
+                href="#"
+                className="text-muted-foreground hover:text-navy-primary transition-colors"
                 data-testid="social-instagram"
               >
                 <SiInstagram className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
-                className="text-muted-foreground hover:text-orange-primary transition-colors"
+                href="#"
+                className="text-muted-foreground hover:text-navy-primary transition-colors"
                 data-testid="social-linkedin"
               >
                 <SiLinkedin className="h-5 w-5" />
@@ -61,11 +58,11 @@ export default function Footer() {
           <div>
             <h5 className="text-lg font-semibold mb-4 text-foreground">{t('footer.topServices')}</h5>
             <ul className="space-y-2 text-muted-foreground">
-              <li><Link href="/services" className="hover:text-orange-primary transition-colors">{t('services.brickwork')}</Link></li>
-              <li><Link href="/services" className="hover:text-orange-primary transition-colors">{t('services.plumbing')}</Link></li>
-              <li><Link href="/services" className="hover:text-orange-primary transition-colors">{t('services.carpentry')}</Link></li>
-              <li><Link href="/services" className="hover:text-orange-primary transition-colors">{t('services.plastering')}</Link></li>
-              <li><Link href="/services" className="hover:text-orange-primary transition-colors">{t('services.paving')}</Link></li>
+              <li><Link href="/services" className="hover:text-navy-primary transition-colors">{t('services.brickwork')}</Link></li>
+              <li><Link href="/services" className="hover:text-navy-primary transition-colors">{t('services.plumbing')}</Link></li>
+              <li><Link href="/services" className="hover:text-navy-primary transition-colors">{t('services.carpentry')}</Link></li>
+              <li><Link href="/services" className="hover:text-navy-primary transition-colors">{t('services.plastering')}</Link></li>
+              <li><Link href="/services" className="hover:text-navy-primary transition-colors">{t('services.paving')}</Link></li>
             </ul>
           </div>
 
@@ -74,8 +71,8 @@ export default function Footer() {
             <ul className="space-y-2 text-muted-foreground">
               <li>
                 <Link 
-                  href="/" 
-                  className="hover:text-orange-primary transition-colors"
+                  href="/"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-nav-home"
                 >
                   {t('nav.home')}
@@ -83,8 +80,8 @@ export default function Footer() {
               </li>
               <li>
                 <Link 
-                  href="/about" 
-                  className="hover:text-orange-primary transition-colors"
+                  href="/about"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-nav-about"
                 >
                   {t('footer.links.about')}
@@ -92,8 +89,8 @@ export default function Footer() {
               </li>
               <li>
                 <Link 
-                  href="/projects" 
-                  className="hover:text-orange-primary transition-colors"
+                  href="/projects"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-nav-projects"
                 >
                   {t('nav.projects')}
@@ -101,8 +98,8 @@ export default function Footer() {
               </li>
               <li>
                 <Link 
-                  href="/services" 
-                  className="hover:text-orange-primary transition-colors"
+                  href="/services"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-nav-services"
                 >
                   {t('nav.services')}
@@ -110,8 +107,8 @@ export default function Footer() {
               </li>
               <li>
                 <Link 
-                  href="/cost-estimator" 
-                  className="hover:text-orange-primary transition-colors"
+                  href="/cost-estimator"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-nav-cost-estimator"
                 >
                   {t('nav.costEstimator')}
@@ -119,8 +116,8 @@ export default function Footer() {
               </li>
               <li>
                 <Link 
-                  href="/quote" 
-                  className="hover:text-orange-primary transition-colors"
+                  href="/quote"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-nav-quote"
                 >
                   {t('nav.getQuote')}
@@ -128,8 +125,8 @@ export default function Footer() {
               </li>
               <li>
                 <Link 
-                  href="/contact" 
-                  className="hover:text-orange-primary transition-colors"
+                  href="/contact"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-nav-contact"
                 >
                   {t('nav.contact')}
@@ -142,27 +139,27 @@ export default function Footer() {
             <h5 className="text-lg font-semibold mb-4 text-foreground">{t('footer.contactInfo')}</h5>
             <div className="space-y-3 text-muted-foreground">
               <div className="flex items-center">
-                <Phone className="mr-3 h-4 w-4 text-orange-primary" />
-                <a 
-                  href="tel:+27790562847" 
-                  className="hover:text-orange-primary transition-colors"
+                <Phone className="mr-3 h-4 w-4 text-navy-primary" />
+                <a
+                  href="tel:+27790562847"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-phone"
                 >
                   +27 79 056 2847
                 </a>
               </div>
               <div className="flex items-center">
-                <Mail className="mr-3 h-4 w-4 text-orange-primary" />
-                <a 
-                  href="mailto:info@kanguyabuilders.com" 
-                  className="hover:text-orange-primary transition-colors"
+                <Mail className="mr-3 h-4 w-4 text-navy-primary" />
+                <a
+                  href="mailto:Kanguyabuilders@gmail.com"
+                  className="hover:text-navy-primary transition-colors"
                   data-testid="footer-email"
                 >
-                  info@kanguyabuilders.com
+                  Kanguyabuilders@gmail.com
                 </a>
               </div>
               <div className="flex items-start">
-                <MapPin className="mr-3 h-4 w-4 text-orange-primary mt-1" />
+                <MapPin className="mr-3 h-4 w-4 text-navy-primary mt-1" />
                 <div>
                   <div>{t('footer.address.line1')}</div>
                   <div>{t('footer.address.line2')}</div>
