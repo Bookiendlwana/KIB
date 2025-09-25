@@ -1,0 +1,765 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanguya Builders - Professional Building & Renovation Services South Africa</title>
+    <meta name="description" content="Professional building and renovation services in South Africa. Expert builders offering seamless, durable, and visually appealing solutions for interiors and exteriors.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    'orange-primary': '#FF6B35',
+                    'orange-secondary': '#FD7F41',
+                    'blue-primary': '#1E40AF',
+                    'blue-secondary': '#3B82F6',
+                    'gray-neutral': '#6B7280',
+                    'gray-light': '#F3F4F6'
+                },
+                fontFamily: {
+                    'inter': ['Inter', 'sans-serif']
+                }
+            }
+        }
+    };
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-inter bg-white">
+    <!-- @COMPONENT: Header [sticky navigation with mobile menu] -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <img src="https://www.kanguyabuilders.com/favicon.jpg" alt="Kanguya Builders Logo" class="h-10 w-10 rounded-full">
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">Kanguya Builders</h1>
+                        <p class="text-xs text-gray-neutral">Building Excellence</p>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-900 hover:text-orange-primary transition-colors font-medium">Home</a>
+                    <a href="#services" class="text-gray-900 hover:text-orange-primary transition-colors font-medium">Services</a>
+                    <a href="#projects" class="text-gray-900 hover:text-orange-primary transition-colors font-medium">Projects</a>
+                    <a href="#about" class="text-gray-900 hover:text-orange-primary transition-colors font-medium">About</a>
+                    <a href="#contact" class="text-gray-900 hover:text-orange-primary transition-colors font-medium">Contact</a>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="tel:+27790562847" class="text-blue-primary hover:text-blue-secondary transition-colors">
+                        <i class="fas fa-phone mr-2"></i>+27 79 056 2847
+                    </a>
+                    <a href="#quote" class="bg-orange-primary hover:bg-orange-secondary text-white px-6 py-2 rounded-lg transition-colors font-medium">
+                        Get Quote
+                    </a>
+                </div>
+
+                <button class="md:hidden text-gray-900" data-event="click:toggleMobileMenu">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden mt-4 pb-4 border-t pt-4 hidden" id="mobile-menu">
+                <div class="flex flex-col space-y-3">
+                    <a href="#home" class="text-gray-900 hover:text-orange-primary transition-colors">Home</a>
+                    <a href="#services" class="text-gray-900 hover:text-orange-primary transition-colors">Services</a>
+                    <a href="#projects" class="text-gray-900 hover:text-orange-primary transition-colors">Projects</a>
+                    <a href="#about" class="text-gray-900 hover:text-orange-primary transition-colors">About</a>
+                    <a href="#contact" class="text-gray-900 hover:text-orange-primary transition-colors">Contact</a>
+                    <a href="tel:+27790562847" class="text-blue-primary hover:text-blue-secondary transition-colors">
+                        <i class="fas fa-phone mr-2"></i>+27 79 056 2847
+                    </a>
+                    <a href="#quote" class="bg-orange-primary hover:bg-orange-secondary text-white px-6 py-2 rounded-lg transition-colors text-center">
+                        Get Quote
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- @END_COMPONENT: Header -->
+
+    <!-- @COMPONENT: Hero Section [main banner with background image] -->
+    <section id="home" class="relative bg-gradient-to-r from-blue-primary to-blue-secondary min-h-screen flex items-center">
+        <!-- Construction site with modern buildings in background -->
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="absolute inset-0" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080'); background-size: cover; background-position: center;"></div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-3xl">
+                <h2 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                    Building Excellence in 
+                    <span class="text-orange-primary">South Africa</span>
+                </h2>
+                <p class="text-xl text-gray-100 mb-8 leading-relaxed">
+                    We are not just about aesthetics; it's about creating a seamless, durable, and visually appealing foundation for your interiors and exteriors.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#quote" class="bg-orange-primary hover:bg-orange-secondary text-white px-8 py-4 rounded-lg transition-colors font-semibold text-lg text-center">
+                        Get Free Quote
+                    </a>
+                    <a href="#projects" class="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-lg transition-colors font-semibold text-lg text-center">
+                        View Our Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Hero Section -->
+
+    <!-- @COMPONENT: Services Section [grid layout of service cards] -->
+    <section id="services" class="py-20 bg-gray-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-900 mb-4">Our Services</h3>
+                <p class="text-xl text-gray-neutral max-w-2xl mx-auto">
+                    Professional building and renovation services across all domestic spheres with expertise in conventional and unconventional household needs.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- @MAP: services.map(service => ( -->
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="text-orange-primary text-4xl mb-4">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">New Construction</h4>
+                    <p class="text-gray-neutral mb-4">Complete residential and commercial building construction from foundation to finishing touches.</p>
+                    <ul class="text-sm text-gray-neutral space-y-1">
+                        <li>• Foundation work</li>
+                        <li>• Structural framing</li>
+                        <li>• Roofing installation</li>
+                        <li>• Interior finishing</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="text-orange-primary text-4xl mb-4">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Home Renovation</h4>
+                    <p class="text-gray-neutral mb-4">Transform your existing space with professional renovation and remodeling services.</p>
+                    <ul class="text-sm text-gray-neutral space-y-1">
+                        <li>• Kitchen remodeling</li>
+                        <li>• Bathroom renovation</li>
+                        <li>• Room additions</li>
+                        <li>• Interior redesign</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="text-orange-primary text-4xl mb-4">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Interior & Exterior Work</h4>
+                    <p class="text-gray-neutral mb-4">Comprehensive interior and exterior finishing services for lasting beauty and durability.</p>
+                    <ul class="text-sm text-gray-neutral space-y-1">
+                        <li>• Interior painting</li>
+                        <li>• Exterior cladding</li>
+                        <li>• Flooring installation</li>
+                        <li>• Landscaping</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="text-orange-primary text-4xl mb-4">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Maintenance & Repairs</h4>
+                    <p class="text-gray-neutral mb-4">Reliable maintenance and repair services to keep your property in excellent condition.</p>
+                    <ul class="text-sm text-gray-neutral space-y-1">
+                        <li>• Plumbing repairs</li>
+                        <li>• Electrical work</li>
+                        <li>• Roofing maintenance</li>
+                        <li>• Emergency repairs</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="text-orange-primary text-4xl mb-4">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Commercial Projects</h4>
+                    <p class="text-gray-neutral mb-4">Professional commercial construction and renovation for businesses across South Africa.</p>
+                    <ul class="text-sm text-gray-neutral space-y-1">
+                        <li>• Office buildings</li>
+                        <li>• Retail spaces</li>
+                        <li>• Warehouse construction</li>
+                        <li>• Commercial renovation</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="text-orange-primary text-4xl mb-4">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">Project Management</h4>
+                    <p class="text-gray-neutral mb-4">Complete project oversight ensuring timely delivery and quality results within budget.</p>
+                    <ul class="text-sm text-gray-neutral space-y-1">
+                        <li>• Planning & permits</li>
+                        <li>• Quality assurance</li>
+                        <li>• Timeline management</li>
+                        <li>• Budget control</li>
+                    </ul>
+                </div>
+                <!-- @END_MAP )) -->
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Services Section -->
+
+    <!-- @COMPONENT: Projects Portfolio [gallery with before/after showcase] -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-900 mb-4">Latest Projects</h3>
+                <p class="text-xl text-gray-neutral max-w-2xl mx-auto">
+                    Our commitment to excellence, attention to detail, and unwavering commitment to customer satisfaction sets us apart as the premier choice for all your building and renovation needs.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <!-- @MAP: projects.map(project => ( -->
+                <!-- Modern residential construction project with clean lines -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow" data-mock="true">
+                    <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Modern residential construction" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Modern Family Home</h4>
+                        <p class="text-gray-neutral text-sm mb-3">Complete new construction in Johannesburg</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-orange-primary font-medium">Completed 2024</span>
+                            <button class="text-blue-primary hover:text-blue-secondary text-sm font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kitchen renovation before and after -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow" data-mock="true">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Kitchen renovation project" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Kitchen Renovation</h4>
+                        <p class="text-gray-neutral text-sm mb-3">Complete kitchen makeover in Cape Town</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-orange-primary font-medium">Completed 2024</span>
+                            <button class="text-blue-primary hover:text-blue-secondary text-sm font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial office building construction -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow" data-mock="true">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Commercial building construction" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Office Complex</h4>
+                        <p class="text-gray-neutral text-sm mb-3">Commercial construction in Durban</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-orange-primary font-medium">Completed 2023</span>
+                            <button class="text-blue-primary hover:text-blue-secondary text-sm font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bathroom renovation project -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow" data-mock="true">
+                    <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Bathroom renovation project" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Luxury Bathroom</h4>
+                        <p class="text-gray-neutral text-sm mb-3">Master bathroom renovation in Pretoria</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-orange-primary font-medium">Completed 2024</span>
+                            <button class="text-blue-primary hover:text-blue-secondary text-sm font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exterior renovation and landscaping -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow" data-mock="true">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Exterior home renovation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Exterior Makeover</h4>
+                        <p class="text-gray-neutral text-sm mb-3">Complete exterior renovation in Port Elizabeth</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-orange-primary font-medium">Completed 2023</span>
+                            <button class="text-blue-primary hover:text-blue-secondary text-sm font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Small home extension project -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow" data-mock="true">
+                    <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Home extension construction" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-2">Home Extension</h4>
+                        <p class="text-gray-neutral text-sm mb-3">Room addition and renovation in Bloemfontein</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-orange-primary font-medium">Completed 2024</span>
+                            <button class="text-blue-primary hover:text-blue-secondary text-sm font-medium">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- @END_MAP )) -->
+            </div>
+
+            <div class="text-center">
+                <button class="bg-blue-primary hover:bg-blue-secondary text-white px-8 py-3 rounded-lg transition-colors font-medium">
+                    View All Projects
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Projects Portfolio -->
+
+    <!-- @COMPONENT: About Section [company information and team] -->
+    <section id="about" class="py-20 bg-gray-light">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <!-- Team of professional builders on construction site -->
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Professional construction team" class="rounded-xl shadow-lg w-full">
+                </div>
+                
+                <div>
+                    <h3 class="text-4xl font-bold text-gray-900 mb-6">We Believe In Quality Services</h3>
+                    <p class="text-lg text-gray-neutral mb-6 leading-relaxed">
+                        We are a team of professional and skilled experts in all domestic spheres. We offer a wide range of services and at the same time we are always glad to help you with any unconventional household needs.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <h4 class="text-lg font-semibold text-gray-900 mb-2">Our Vision</h4>
+                            <p class="text-gray-neutral text-sm">To be South Africa's leading construction company, known for exceptional quality, innovative solutions, and unparalleled customer service in every project we undertake.</p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <h4 class="text-lg font-semibold text-gray-900 mb-2">Our Mission</h4>
+                            <p class="text-gray-neutral text-sm">Creating seamless, durable, and visually appealing foundations for our clients' dreams through professional expertise, quality materials, and dedicated craftsmanship.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-6 text-center">
+                        <div>
+                            <div class="text-3xl font-bold text-orange-primary mb-1">15+</div>
+                            <div class="text-gray-neutral text-sm">Years Experience</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-orange-primary mb-1">500+</div>
+                            <div class="text-gray-neutral text-sm">Projects Completed</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-orange-primary mb-1">100%</div>
+                            <div class="text-gray-neutral text-sm">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: About Section -->
+
+    <!-- @COMPONENT: Testimonials Section [client reviews and social proof] -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h3>
+                <p class="text-xl text-gray-neutral max-w-2xl mx-auto">
+                    Don't just take our word for it - hear from satisfied clients across South Africa.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- @MAP: testimonials.map(testimonial => ( -->
+                <div class="bg-gray-light p-6 rounded-xl shadow-md" data-mock="true">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-orange-primary">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-neutral mb-4 italic">
+                        "Kanguya Builders transformed our home beyond our expectations. Their attention to detail and professional approach made the entire renovation process smooth and stress-free."
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Happy homeowner portrait -->
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&h=100" alt="Client testimonial" class="w-12 h-12 rounded-full mr-3">
+                        <div>
+                            <div class="font-semibold text-gray-900">John Smith</div>
+                            <div class="text-sm text-gray-neutral">Johannesburg</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-light p-6 rounded-xl shadow-md" data-mock="true">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-orange-primary">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-neutral mb-4 italic">
+                        "Outstanding workmanship and excellent communication throughout our commercial project. Kanguya Builders delivered on time and within budget."
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Business owner portrait -->
+                        <img src="https://pixabay.com/get/gff3e3c4aca7c5a713b6ad14366e9ed769f3a1c10e32b0554ef758a6e4e3ab75e75a178e2624e363cc5ee5511a432247a60149ce98d0dcf7245258fa7d21eefc2_1280.jpg" alt="Client testimonial" class="w-12 h-12 rounded-full mr-3">
+                        <div>
+                            <div class="font-semibold text-gray-900">Sarah Johnson</div>
+                            <div class="text-sm text-gray-neutral">Cape Town</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-light p-6 rounded-xl shadow-md" data-mock="true">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-orange-primary">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-neutral mb-4 italic">
+                        "Professional, reliable, and skilled craftsmen. Our kitchen renovation exceeded all expectations. Highly recommend Kanguya Builders for any construction project."
+                    </p>
+                    <div class="flex items-center">
+                        <!-- Happy customer portrait -->
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&h=100" alt="Client testimonial" class="w-12 h-12 rounded-full mr-3">
+                        <div>
+                            <div class="font-semibold text-gray-900">Michael Brown</div>
+                            <div class="text-sm text-gray-neutral">Pretoria</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- @END_MAP )) -->
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Testimonials Section -->
+
+    <!-- @COMPONENT: Quote Request Section [contact form for project quotes] -->
+    <section id="quote" class="py-20 bg-blue-primary">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center text-white mb-12">
+                    <h3 class="text-4xl font-bold mb-4">Get Your Free Quote Today</h3>
+                    <p class="text-xl text-blue-100">
+                        Ready to start your building or renovation project? Get a personalized quote tailored to your needs.
+                    </p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-2xl p-8">
+                    <form class="grid md:grid-cols-2 gap-6" data-event="submit:handleQuoteSubmit">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Full Name *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" placeholder="Enter your full name" data-bind="form.fullName">
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Phone Number *</label>
+                            <input type="tel" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" placeholder="+27 XX XXX XXXX" data-bind="form.phone">
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Email Address *</label>
+                            <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" placeholder="your@email.com" data-bind="form.email">
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Project Type *</label>
+                            <select required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" data-bind="form.projectType">
+                                <option value="">Select project type</option>
+                                <option value="new-construction">New Construction</option>
+                                <option value="renovation">Home Renovation</option>
+                                <option value="interior-exterior">Interior/Exterior Work</option>
+                                <option value="maintenance">Maintenance & Repairs</option>
+                                <option value="commercial">Commercial Project</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Budget Range</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" data-bind="form.budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-50k">Under R50,000</option>
+                                <option value="50k-100k">R50,000 - R100,000</option>
+                                <option value="100k-250k">R100,000 - R250,000</option>
+                                <option value="250k-500k">R250,000 - R500,000</option>
+                                <option value="500k-1m">R500,000 - R1,000,000</option>
+                                <option value="over-1m">Over R1,000,000</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Location *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" placeholder="City, Province" data-bind="form.location">
+                        </div>
+
+                        <div class="md:col-span-2">
+                            <label class="block text-gray-700 font-medium mb-2">Project Description *</label>
+                            <textarea required rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent resize-none" placeholder="Please describe your project in detail..." data-bind="form.description"></textarea>
+                        </div>
+
+                        <div class="md:col-span-2">
+                            <button type="submit" class="w-full bg-orange-primary hover:bg-orange-secondary text-white py-4 rounded-lg transition-colors font-semibold text-lg">
+                                Get Free Quote
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Quote Request Section -->
+
+    <!-- @COMPONENT: Contact Section [contact information and map] -->
+    <section id="contact" class="py-20 bg-gray-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-900 mb-4">Contact Us</h3>
+                <p class="text-xl text-gray-neutral max-w-2xl mx-auto">
+                    Get in touch with our team for any questions or to discuss your next project.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-1">
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-orange-primary text-white p-3 rounded-full mr-4">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Phone</h4>
+                                    <p class="text-gray-neutral">Call us directly</p>
+                                </div>
+                            </div>
+                            <a href="tel:+27790562847" class="text-blue-primary hover:text-blue-secondary font-medium">
+                                +27 79 056 2847
+                            </a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-orange-primary text-white p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Email</h4>
+                                    <p class="text-gray-neutral">Send us a message</p>
+                                </div>
+                            </div>
+                            <a href="mailto:info@kanguyabuilders.com" class="text-blue-primary hover:text-blue-secondary font-medium">
+                                info@kanguyabuilders.com
+                            </a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-orange-primary text-white p-3 rounded-full mr-4">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">WhatsApp</h4>
+                                    <p class="text-gray-neutral">Quick messaging</p>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/+27790562847" class="text-blue-primary hover:text-blue-secondary font-medium" target="_blank">
+                                Message on WhatsApp
+                            </a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="bg-orange-primary text-white p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Service Areas</h4>
+                                    <p class="text-gray-neutral">Nationwide coverage</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">
+                                Johannesburg, Cape Town, Durban, Pretoria, and surrounding areas across South Africa
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2">
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h4 class="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h4>
+                        <form class="space-y-6" data-event="submit:handleContactSubmit">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-gray-700 font-medium mb-2">Name *</label>
+                                    <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" data-bind="contact.name">
+                                </div>
+                                <div>
+                                    <label class="block text-gray-700 font-medium mb-2">Email *</label>
+                                    <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" data-bind="contact.email">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Subject *</label>
+                                <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent" data-bind="contact.subject">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Message *</label>
+                                <textarea required rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-primary focus:border-transparent resize-none" data-bind="contact.message"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="bg-blue-primary hover:bg-blue-secondary text-white px-8 py-3 rounded-lg transition-colors font-medium">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Contact Section -->
+
+    <!-- @COMPONENT: Footer [company information and links] -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <img src="https://www.kanguyabuilders.com/favicon.jpg" alt="Kanguya Builders Logo" class="h-8 w-8 rounded-full">
+                        <h5 class="text-xl font-bold">Kanguya Builders</h5>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Professional building and renovation services across South Africa. Creating seamless, durable, and visually appealing foundations for your dreams.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-orange-primary transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-orange-primary transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-orange-primary transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-orange-primary transition-colors">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Services</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-orange-primary transition-colors">New Construction</a></li>
+                        <li><a href="#" class="hover:text-orange-primary transition-colors">Home Renovation</a></li>
+                        <li><a href="#" class="hover:text-orange-primary transition-colors">Interior & Exterior</a></li>
+                        <li><a href="#" class="hover:text-orange-primary transition-colors">Maintenance & Repairs</a></li>
+                        <li><a href="#" class="hover:text-orange-primary transition-colors">Commercial Projects</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Quick Links</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-orange-primary transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-orange-primary transition-colors">About Us</a></li>
+                        <li><a href="#projects" class="hover:text-orange-primary transition-colors">Projects</a></li>
+                        <li><a href="#quote" class="hover:text-orange-primary transition-colors">Get Quote</a></li>
+                        <li><a href="#contact" class="hover:text-orange-primary transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-lg font-semibold mb-4">Contact Info</h5>
+                    <div class="space-y-3 text-gray-400">
+                        <div class="flex items-center">
+                            <i class="fas fa-phone mr-3 text-orange-primary"></i>
+                            <a href="tel:+27790562847" class="hover:text-orange-primary transition-colors">+27 79 056 2847</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-orange-primary"></i>
+                            <a href="mailto:info@kanguyabuilders.com" class="hover:text-orange-primary transition-colors">info@kanguyabuilders.com</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3 text-orange-primary"></i>
+                            <span>Nationwide South Africa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Kanguya Builders. All rights reserved. | Professional Building & Renovation Services</p>
+            </div>
+        </div>
+    </footer>
+    <!-- @END_COMPONENT: Footer -->
+
+    <script>
+    // TODO: Implement business logic, API calls, and state management
+    
+    (function() {
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('[data-event="click:toggleMobileMenu"]');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form validation placeholder
+        const forms = document.querySelectorAll('form');
+        forms.forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // TODO: Implement form validation and submission logic
+                console.log('Form submission prevented - implement validation logic');
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('shadow-xl');
+            } else {
+                header.classList.remove('shadow-xl');
+            }
+        });
+    })();
+    </script>
+</body>
+</html>

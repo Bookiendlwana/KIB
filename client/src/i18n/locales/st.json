@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Hae",
+    "services": "Ditshebeletso",
+    "projects": "Diporojeke",
+    "about": "Ka Rona",
+    "reviews": "Ditlhahlobo",
+    "contact": "Ikopanye le Rona",
+    "costEstimator": "Sesebelisoa sa Tekanyo ya Ditjeo",
+    "getQuote": "Fumana Qoute",
+    "gallery": "Galeri"
+  },
+  "hero": {
+    "title": "Mofani wa Ditshebeletso tsa Kaho le Kaonofatso",
+    "subtitle": "Ha re sebetse feela ka botle; re sebetsa ka ho theha motheo o se nang mathata, o tswellang nako e telele, o khahlisang mahlong bakeng sa ka hare le ka ntle.",
+    "aboutUs": "Ka Rona"
+  },
+  "about": {
+    "title": "Pono ya Kgwebo",
+    "description": "Kanguya builders e qalile e le basebetsi ba kontraka ba tlwaelo ka 2010 Cape Town, Afrika Borwa, ba nka diporojeke tse nyane tsa kaho Cape Town. Ho tloha 2010-2018, Kanguya builders e ne e tsejwa e le Trust Builders. Bofelong ba 2018, Kanguya builders e fallile Zambia moo re ileng ra nka diporojeke tse mmalwa tsa kaho mme ra fetola lebitso la rona la ba Kanguya Builders Lusaka ho fihlela 2021. Ka 2022, re ile ra kgutla Cape Town, Afrika Borwa moo re ileng ra ipehela ka botlalo e le bapalwali ba matla indastering ya kaho, re nka diporojeke tse nyane le tse mahareng, re etsa mesebetsi ya taolo ya diporojeke, re fana ka ditshebeletso tse ntle, mme re fana ka ditharollo tsa boenjiniere ba kgwebo ho bareki ba rona.",
+    "vision": "Pono ya Rona",
+    "visionText": "Ho ba dikontrakeng tsa kaho tse hlomphehang le ho fana ho feta tseo e leng tse lebeletsweng ka dinako tsohle le ho kenya letsoho lenaneng la ntlafatso ya motheo wa Afrika le ho bapala karolo ya boqapi ba mesebetsi ho bacha ba Afrika.",
+    "philosophy": "Filosofi ya Rona ya Taolo le Phethahatso ya Diporojeke",
+    "philosophyPoints": {
+      "safety": "Ho netefatsa tshireletso le tikoloho e nepahetseng ya ho sebetsa sebakeng ka dinako tsohle",
+      "planning": "Ho theha lenaneo le qaqileng la nako le moralo wa disource ho fihlela dipheo tsa bareki ba rona",
+      "communication": "Ho buisana letsatsi le letsatsi le ba nang le seabo sohle porojekeng",
+      "tracking": "Ho latedisisa tsoelo-pele ya porojeke le ho lokisa",
+      "supervision": "Ho shebella haufi-ufi boleng ba mosebetsi o entsweng",
+      "completion": "Ho phetha le ho qala diporojeke ka nako"
+    },
+    "yearsExperience": "Dilemo tsa Boiphihlelo",
+    "projectsCompleted": "Diporojeke tse Phethilweng",
+    "clientSatisfaction": "Kgotsofalo ya Bareki"
+  },
+  "common": {
+    "loading": "E a jara...",
+    "error": "Phoso",
+    "success": "Katleho",
+    "submitting": "E a romela...",
+    "submit": "Romela",
+    "cancel": "Hlakola",
+    "close": "Koala",
+    "save": "Boloka",
+    "edit": "Fetola",
+    "delete": "Hlakola",
+    "view": "Sheba",
+    "back": "Boela",
+    "next": "Tse latelang",
+    "previous": "Tse fetileng",
+    "search": "Batla",
+    "filter": "Hlophisa",
+    "sort": "Hlophisa",
+    "selectLanguage": "Khetha Puo"
+  },
+  "services": {
+    "title": "Ditshebeletso Tsa Rona Tsa Kaho",
+    "subtitle": "Ditharollo tse felletseng tsa kaho le kaonofatso ka dilemo tse 14+ tsa boiphihlelo",
+    "tiling": "Ho Beha Dithayele",
+    "tilingDesc": "Kaho ya sethala sa ditshebeletso, mabota le dipindu",
+    "plastering": "Ho Phala",
+    "plasteringDesc": "Ditshebeletso tsa setsebi tsa ho phala ka hare le ka ntle",
+    "brickwork": "Mosebetsi wa Dithene",
+    "brickworkDesc": "Kaho ya dithene tsa boleng bakeng sa sebopehelo le botle",
+    "painting": "Ho Penta",
+    "paintingDesc": "Ditshebeletso tsa setsebi tsa ho penta ka hare le ka ntle ka botlalo",
+    "paving": "Ho Thathamela",
+    "pavingDesc": "Ho thathamela ditsela tsa koloi le ditsela tsa ho tsamaea ka didirisiwa tse matla",
+    "plumbing": "Metsi",
+    "plumbingDesc": "Kaho ya metsi e felletseng le ditshebeletso tsa tokiso",
+    "carpentry": "Mosebetsi wa Lehong",
+    "carpentryDesc": "Mesebetsi ya setso ya lehong le ditharollo tsa botekgeniki",
+    "maintenance": "Tlhokomelo",
+    "maintenanceDesc": "Ditshebeletso tse tswellang tsa tlhokomelo le tokiso"
+  },
+  "header": {
+    "tagline": "KAHO YA SETSEBI",
+    "whatsappButton": "Buisana ho WhatsApp",
+    "getQuoteButton": "Fumana Qoute"
+  },
+  "footer": {
+    "description": "Re a le amohela ho Kanguya Builders, mohlodi wa hao wa tshepahalo bakeng sa ditshebeletso tsa kaho le kaonofatso tsa boleng bo phahameng. Ka boiphihlelo ba dilemo tse fetang 14 indastering ya kaho, re motlotlo ka ho fana ka ditharollo tse se nang bothata.",
+    "topServices": "Ditshebeletso Tsa Rona Tse Holimo",
+    "quickLinks": "Dikhokahanyo Tse Potlakileng",
+    "contactInfo": "Tlhahisoleseding ya Ikopanyo",
+    "copyright": "© 2024 Kanguya Builders. Ditokelo tsohle di sireletsehile. | Ditshebeletso tsa Setsebi tsa Kaho le Kaonofatso",
+    "links": {
+      "about": "Ka Rona"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cape Town 7455"
+    },
+    "hours": "Mantaha-Labohlano: 9AM-6PM"
+  }
+}

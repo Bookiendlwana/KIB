@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "home": "Nyumba",
+    "services": "Machitidwe",
+    "projects": "Maprojekiti",
+    "about": "Za Ife",
+    "reviews": "Mavuto",
+    "gallery": "Chithunzi",
+    "contact": "Kuyandikira",
+    "costEstimator": "Chowerera Chitengo",
+    "getQuote": "Pezani Mtengo"
+  },
+  "hero": {
+    "title": "Kumanga Kwabwino ku Cape Town",
+    "subtitle": "Ndi zaka za chidziwitso choposa 14, timapanga maziko osagwira, olimba komanso owoneka bwino kwa zomangamanga zanu zamkati ndi zakunja. Kuchokera pa ntchito za matope mpaka kusungitsa madzi, timayang'anira zonse zomangamanga zanu.",
+    "aboutUs": "Za Ife"
+  },
+  "about": {
+    "title": "Ndondomeko ya Bizinesi",
+    "description": "Kanguya builders inayamba ngati ogwira ntchito ya kontrakata mu 2010 ku Cape Town, South Africa, kuchita maprojekiti ang'onoang'ono omanga ku Cape Town. Kuchokera 2010-2018, Kanguya builders inkadziwika kuti Trust Builders. Kumapeto kwa 2018, Kanguya builders inasamukira ku Zambia kumene tinachita maprojekiti angapo omanga ndikusintha dzina lathu kukhala Kanguya Builders kuzungulira Lusaka mpaka 2021. Mu 2022, tinabwerera ku Cape Town, South Africa komwe tidakhazikika mokwanira ngati osewera amphamvu m'makampani omanga, tikuchita maprojekiti ang'onoang'ono ndi apakatikati, tikugwira ntchito za utsogoleri wa maprojekiti, tikunyambira ntchito zabwino kwambiri, ndi kupereka zotheka za uinjiniya wamalonda kwa makasitomala athu.",
+    "vision": "Chiwonongeko Chathu",
+    "visionText": "Kukhala anthu olemekezeka omanga komanso kupereka koposa zomwe akuyembekezera nthawi zonse ndikuthandizira ku dongosololi la chitukuko cha zomangamanga za Africa komanso kutenga gawo la kupanga ntchito kwa achinyamata a ku Africa.",
+    "philosophy": "Nzeru Zathu za Utsogoleri wa Maprojekiti ndi Kuchita",
+    "philosophyPoints": {
+      "safety": "Kuonetsetsa chitetezo ndi chilengedwe cha ntchito pa malo a ntchito nthawi zonse",
+      "planning": "Kupanga dongosolo latsatanetsatane ndi mapulani a zinthu kuti tikwaniritse zolinga za makasitomala athu",
+      "communication": "Kulankhulana tsiku lililonse ndi onse okhudzidwa ndi projekiti",
+      "tracking": "Kutsata momwe projekiti ikuyendera ndikuwongolera",
+      "supervision": "Kuyang'anira pafupi zabwino za ntchito yomwe yachitika",
+      "completion": "Kumaliza ndi kuyambitsa maprojekiti mwa nthawi"
+    },
+    "yearsExperience": "Zaka za Luso",
+    "projectsCompleted": "Maprojekiti Omalizika",
+    "clientSatisfaction": "Kukhutitsidwa kwa Makasitomala"
+  },
+  "services": {
+    "title": "Machitidwe Athu Omanga",
+    "subtitle": "Zoyankha zathunthu za zomanga ndi kukonza kwatsopano ndi zaka za luso 14+",
+    "tiling": "Kuyika Matayala",
+    "tilingDesc": "Kuyika matayala mwaluso pa pansi, makoma, ndi m'mbuyo",
+    "plastering": "Kupaka Matope",
+    "plasteringDesc": "Ntchito ya ukadaulo ya kupaka matope makoma amkati ndi akunja",
+    "brickwork": "Ntchito ya Njerwa",
+    "brickworkDesc": "Kumanga njerwa zabwino za mapangidwe ndi zokongoletsera",
+    "painting": "Kupenta",
+    "paintingDesc": "Ntchito ya kupenta mkati ndi kunja ndi zomaliza zabwino",
+    "paving": "Kupanga Njira",
+    "pavingDesc": "Kupanga njira za galimoto ndi zoyenda ndi zinthu zolimba",
+    "plumbing": "Kuika Mapaipi",
+    "plumbingDesc": "Kuika ndi kukonza kwathunthu kwa mapaipi",
+    "carpentry": "Ntchito ya Matabwa",
+    "carpentryDesc": "Zinthu za matabwa zopangidwa bwino ndi zoyankha za senga",
+    "maintenance": "Chisamaliro",
+    "maintenanceDesc": "Chisamaliro chosalekeza ndi ntchito zokonza"
+  },
+  "projects": {
+    "title": "Maprojekiti Athu Apadera",
+    "subtitle": "Kudzipereka kwathu ku ukadaulo, chidwi pa zatsatanetsatane, ndi kudzipereka kwathu kosalekeza kuonetsetsa kukhutitsidwa kwa makasitomala kukutisiyanitsa ngati chisankho choyamba cha zosowa zonse za zomanga ndi kukonza.",
+    "viewDetails": "Onani Zambiri",
+    "location": "Malo",
+    "year": "Chaka",
+    "category": "Gulu",
+    "duration": "Nthawi",
+    "client": "Kasitomala",
+    "scope": "Kukula kwa Projekiti",
+    "challenges": "Zovuta",
+    "solution": "Yankho",
+    "materials": "Zinthu Zogwiritsidwa Ntchito",
+    "teamSize": "Kukula kwa Gulu"
+  },
+  "costEstimator": {
+    "title": "Chida Chowerera Mtengo",
+    "subtitle": "Pezani kuyerekezera kwapang'ono kwa projekiti yanu yomanga. Lemberani zambiri za projekiti yanu pansipa kuti mulandire mtengo woyerekezeka potengera mitengo yathu yapano.",
+    "projectDetails": "Zambiri za Projekiti",
+    "projectDetailsDesc": "Perekani chidziwitso cha projekiti yanu kwa kuyerekezera mtengo",
+    "serviceType": "Mtundu wa Chithandizo",
+    "selectService": "Sankhani chithandizo",
+    "area": "Kukula kwa Malo (Mita Zaponanda)",
+    "areaPlaceholder": "mwachitsanzo, 50",
+    "complexity": "Kuvuta kwa Projekiti",
+    "selectComplexity": "Sankhani kuchuluka kwa kuvuta",
+    "basic": "Choyambira - Zinthu zachizolowezi ndi kapangidwe kaphweka",
+    "standard": "Wanthawi zonse - Zinthu zabwino komanso kuvuta kokhazikika",
+    "premium": "Wapamwamba - Zinthu zazikulu komanso kapangidwe kovuta",
+    "location": "Malo a Projekiti",
+    "locationPlaceholder": "mwachitsanzo, Cape Town, South Africa",
+    "calculate": "Werengani Kuyerekezera",
+    "costEstimate": "Kuyerekezera Mtengo",
+    "ratePerSqm": "Chiwerengero pa m²",
+    "totalEstimate": "Kuyerekezera Kwathunthu",
+    "aboutEstimates": "Za Kuyerekezera Kwathu",
+    "estimateDesc": "Chida chathu chowerera mtengo chimapereka kuyerekezera kwapang'ono kutengera:",
+    "estimatePoints": [
+      "Mitengo yapano ya msika wa zinthu ndi antchito",
+      "Kuvuta kwa projekiti ndi zofunika za ubwino",
+      "Njira zachizolowezi zomanga",
+      "Zaka zathu za luso mu makampani 14+"
+    ],
+    "importantNote": "Chofunikira: Ichi ndi kuyerekezera kwapang'ono. Mitengo yokumalizira ikhoza kusiyana malinga ndi zofunika zenizeni, momwe malo aliri, kusankha zinthu, ndi mitengo yapano ya msika. Kuyandikirani kuti mupeze mtengo watsatanetsatane.",
+    "readyToStart": "Mukufuna kuyamba?",
+    "contactDesc": "Kuyandikirani kuti mupeze mtengo watsatanetsatane ndi upangiri waukadaulo",
+    "getDetailedQuote": "Pezani Mtengo Watsatanetsatane",
+    "contactUs": "Kuyandikirani"
+  },
+  "gallery": {
+    "title": "Chiwonetsero cha Maprojekiti",
+    "subtitle": "Fufuzani portfolio yathu ya maprojekiti omalizika. Onani ubwino wa ukadaulo ndi chidwi pa zatsatanetsatane zomwe zimasiyanitsa Kanguya Builders.",
+    "categories": {
+      "all": "Zonse",
+      "buildingWork": "Ntchito Yomanga",
+      "renovations": "Kukonza Kwatsopano"
+    },
+    "items": {
+      "constructionProgress": "Momwe Zomanga Zikuyendera",
+      "foundationWork": "Ntchito ya Maziko",
+      "structuralWork": "Ntchito ya Mapangidwe",
+      "interiorWork": "Ntchito Yamkati",
+      "finishingWork": "Ntchito Yokumalizira",
+      "qualityCraftsmanship": "Ukadaulo Wabwino",
+      "detailWork": "Ntchito Yatsatanetsatane",
+      "professionalInstallation": "Kukhazikitsa Kwaukadaulo",
+      "constructionSite": "Malo Omangira",
+      "projectCompletion": "Kumalizira kwa Projekiti",
+      "finalTouches": "Zokumaliza",
+      "qualityResults": "Zotsatira Zabwino",
+      "professionalWork": "Ntchito Yaukadaulo",
+      "constructionDetails": "Zambiri za Zomanga",
+      "renovationWork": "Ntchito ya Kukonza",
+      "buildingProgress": "Momwe Zomanga Zikuyendera",
+      "qualityFinish": "Kumaliza Kwabwino",
+      "completedWork": "Ntchito Yomalizika",
+      "constructionProcess": "Njira ya Zomanga"
+    },
+    "cta": {
+      "title": "Mukufuna Kuyamba Projekiti Yanu?",
+      "subtitle": "Tiloleni tikupangirani chinthu chodabwitsa inunso. Kuyandikirani kuti mupeze upangiri waulere ndi mtengo.",
+      "quote": "Pezani Mtengo Waulere",
+      "contact": "Kuyandikirani"
+    }
+  },
+  "reviews": {
+    "title": "Ndemanga za Makasitomala ndi Umboni",
+    "subtitle": "Werengani ndemanga zenizeni za makasitomala athu za zomwe anakumana nazo ndi Kanguya Builders. Ndemanga zanu zimatithandiza kusunga miyezo yathu yapamwamba komanso kumathandiza ena kupanga zisankho zodziwika bwino.",
+    "authentic": {
+      "title": "Ndemanga Zenizeni za Makasitomala",
+      "description": "Ndemanga iliyonse ikuchokera kwa makasitomala enieni omwe akumana nawo machitidwe athu omanga mwachindunji."
+    }
+  },
+  "contact": {
+    "title": "Kuyandikirani",
+    "subtitle": "Kuyandikirani kwa zosowa zanu za zomanga ndi kukonza",
+    "name": "Dzina Lathunthu",
+    "email": "Adilesi ya Imelo",
+    "subject": "Mutu",
+    "message": "Uthenga",
+    "send": "Tumizani Uthenga",
+    "phone": "Foni",
+    "phoneDescription": "Kuyimbirani kuti mupeze chithandizo chomwechomwe",
+    "whatsapp": "WhatsApp",
+    "whatsappDescription": "Kambani nafe pa WhatsApp",
+    "facebook": "Facebook",
+    "facebookDescription": "Mutsatirani pa Facebook",
+    "emailDescription": "Titumizireni imelo",
+    "address": "Adilesi",
+    "addressDescription": "Bwerani ku ofesi yathu",
+    "hours": "Maola a Bizinesi",
+    "mondayFriday": "Lolemba-Lachisanu: 9AM-6PM"
+  },
+  "quote": {
+    "title": "Pezani Mtengo Wanu Waulere Lero",
+    "subtitle": "Mukufuna kuyamba projekiti yanu yomanga kapena kukonza? Pezani mtengo wamakonda wanu wokwanira zosowa zanu.",
+    "toast": {
+      "success": "Pemphola Mtengo Latumizidwa",
+      "error": "Kulephera kutumiza pemphola mtengo"
+    },
+    "form": {
+      "fullName": "Dzina Lathunthu *",
+      "fullNamePlaceholder": "Lemberani dzina lanu lathunthu",
+      "phoneNumber": "Nambala ya Foni *",
+      "phoneNumberPlaceholder": "+27 XX XXX XXXX",
+      "emailAddress": "Adilesi ya Imelo *",
+      "emailAddressPlaceholder": "imelo@yanu.com",
+      "projectType": "Mtundu wa Projekiti *",
+      "selectProjectType": "Sankhani mtundu wa projekiti",
+      "projectTypes": {
+        "newConstruction": "Zomanga Zatsopano",
+        "renovation": "Kukonza Nyumba",
+        "interiorExterior": "Ntchito Yamkati/Yakunja",
+        "maintenance": "Chisamaliro ndi Kukonza",
+        "commercial": "Projekiti ya Bizinesi",
+        "other": "China"
+      },
+      "budgetRange": "Kuchuluka kwa Ndalama",
+      "selectBudgetRange": "Sankhani kuchuluka kwa ndalama",
+      "budgetRanges": {
+        "under5k": "Pansi pa R5,000",
+        "5k15k": "R5,000 - R15,000",
+        "15k30k": "R15,000 - R30,000",
+        "30k50k": "R30,000 - R50,000",
+        "50k100k": "R50,000 - R100,000",
+        "over100k": "Kuposa R100,000",
+        "custom": "Ndalama Zina"
+      },
+      "enterBudget": "Lemberani Ndalama Zanu (R)",
+      "enterAmountPlaceholder": "Lemberani ndalama mu Rands",
+      "location": "Malo *",
+      "locationPlaceholder": "Mzinda, Chigawo",
+      "projectDescription": "Kufotokoza kwa Projekiti *",
+      "projectDescriptionPlaceholder": "Chonde fotokozani projekiti yanu mwatsatanetsatane...",
+      "submitButton": "Pezani Mtengo Waulere"
+    }
+  },
+  "footer": {
+    "description": "Mukulandiridwa ku Kanguya Builders, gwero lanu lodalirika la machitidwe apamwamba omanga ndi kukonza. Ndi zaka za luso zoposa 14 mu makampani omanga, timanyada kwambiri kupereka zoyankha zangwiro.",
+    "topServices": "Machitidwe Athu Apamwamba",
+    "quickLinks": "Maulalo Omwera",
+    "contactInfo": "Zidziwitso za Kuyandikira",
+    "copyright": "© 2024 Kanguya Builders. Ufulu wonse wosungidwa. | Machitidwe Aukadaulo a Zomanga ndi Kukonza",
+    "links": {
+      "about": "Za Ife"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cape Town 7455"
+    },
+    "hours": "Lolemba-Lachisanu: 9AM-6PM"
+  },
+  "reviewForm": {
+    "title": "Gawani Zomwe Munakumana Nazo",
+    "description": "Thandizani ena pogawana zomwe munakumana nazo ndi Kanguya Builders. Ndemanga zanu zenizeni ndizofunika kwa ife ndi makasitomala amtsogolo.",
+    "success": {
+      "title": "Zikomo Chifukwa cha Ndemanga Yanu!",
+      "description": "Zikomo chifukwa cha ndemanga yanu!",
+      "message": "Ndemanga yanu yatumizidwa ndipo idzasindikizidwa pambuyo pa njira yathu yokunira. Timayamikira ndemanga zanu ndipo zimathandiza makasitomala ena kupanga zisankho zodziwika bwino.",
+      "submitAnother": "Tumizani Ndemanga Ina"
+    },
+    "error": {
+      "title": "Kulephera Kutumiza Ndemanga",
+      "description": "Chonde yesaniso pambuyo pake."
+    },
+    "form": {
+      "fullName": "Dzina Lathunthu *",
+      "fullNamePlaceholder": "Dzina lanu lathunthu",
+      "emailAddress": "Adilesi ya Imelo *",
+      "emailPlaceholder": "imelo@yanu.com",
+      "phoneNumber": "Nambala ya Foni",
+      "phonePlaceholder": "+27 XX XXX XXXX",
+      "serviceUsed": "Chithandizo Chomwe Munagwiritsa Ntchito *",
+      "serviceUsedPlaceholder": "Sankhani chithandizo chomwe munagwiritsa ntchito",
+      "projectLocation": "Malo a Projekiti",
+      "locationPlaceholder": "mwachitsanzo, Cape Town, Bellville",
+      "overallRating": "Mavoti Onse *",
+      "reviewTitle": "Mutu wa Ndemanga *",
+      "reviewTitlePlaceholder": "mwachitsanzo, Chithandizo chabwino ndi ntchito zabwino",
+      "yourReview": "Ndemanga Yanu *",
+      "reviewPlaceholder": "Gawani zambiri za zomwe munakumana nazo ndi Kanguya Builders. Ndi chithandizo chanji chomwe munagwiritsa ntchito? Kodi ubwino, nthawi, ndi chithandizo cha makasitomala zinali bwanji?",
+      "recommendQuestion": "Kodi mungalimbikitse Kanguya Builders kwa ena? *",
+      "recommendPlaceholder": "Sankhani chilimbikitso chanu"
+    }
+  },
+  "header": {
+    "tagline": "ZOMANGA ZA UKADAULO",
+    "whatsappButton": "Kambani pa WhatsApp",
+    "getQuoteButton": "Pezani Mtengo"
+  },
+  "common": {
+    "loading": "Kutsitsa...",
+    "error": "Cholakwika",
+    "success": "Kupambana",
+    "submitting": "Kutumiza...",
+    "submit": "Tumizani",
+    "cancel": "Letsani",
+    "close": "Tsekani",
+    "save": "Sungani",
+    "edit": "Kusintha",
+    "delete": "Chotsani",
+    "view": "Onani",
+    "back": "Kubwerera",
+    "next": "Chotsatira",
+    "previous": "Chakale",
+    "search": "Funani",
+    "filter": "Gawerani",
+    "sort": "Konga",
+    "selectLanguage": "Sankhani Chilankhulo"
+  }
+}

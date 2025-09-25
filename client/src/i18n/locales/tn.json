@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Gae",
+    "services": "Ditirelo",
+    "projects": "Diporojeke",
+    "about": "Ka Rona",
+    "reviews": "Ditlhahlobo",
+    "contact": "Ikgolaganye le Rona",
+    "costEstimator": "Sedirisiwa sa Tekano ya Ditlhotlhwa",
+    "getQuote": "Bona Qoute"
+  },
+  "hero": {
+    "title": "Mofani wa Ditirelo tsa Kago le Kaonafatso",
+    "subtitle": "Ga re dire fela ka bontle; re dira ka go tlhama motheo o o sa khongoloseng, o o itshegang le o o bonahalang mo teng le kwa ntle.",
+    "aboutUs": "Ka Rona"
+  },
+  "common": {
+    "loading": "E a tsenya...",
+    "error": "Phoso",
+    "success": "Katlego",
+    "submit": "Romela",
+    "cancel": "Khansela",
+    "close": "Tswala",
+    "save": "Boloka",
+    "edit": "Baakanya",
+    "delete": "Phimola",
+    "view": "Leba",
+    "back": "Boela",
+    "next": "Se se latelang",
+    "previous": "Se se fetileng",
+    "search": "Batla",
+    "filter": "Kala",
+    "sort": "Rulaganya",
+    "selectLanguage": "Tlhopha Puo",
+    "submitting": "E a romela..."
+  },
+  "header": {
+    "tagline": "KAGO YA SETSEBI",
+    "whatsappButton": "Buisana mo WhatsApp",
+    "getQuoteButton": "Bona Qoute"
+  },
+  "footer": {
+    "description": "Re a le amohela mo Kanguya Builders, mohlodi wa gago wa ikanyego wa ditirelo tsa kago le kaonafatso tsa maemo a godimo. Ka boiphihlelo jwa dingwaga di le 14+ mo intasetering ya kago, re ikgantsha thata ka go neelana ka ditharollo tse di se nang sepe.",
+    "topServices": "Ditirelo Tsa Rona Tse Kgolo",
+    "quickLinks": "Dikgolagano Tse di Bonako",
+    "contactInfo": "Tshedimosetso ya Golagana",
+    "copyright": "© 2024 Kanguya Builders. Ditshwanelo tsotlhe di sireletsegile. | Ditirelo Tsa Setsebi tsa Kago le Kaonafatso",
+    "links": {
+      "about": "Ka Rona"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cape Town 7455"
+    },
+    "hours": "Mantaha-Labotlhano: 9AM-6PM"
+  },
+  "services": {
+    "title": "Ditirelo Tsa Rona Tsa Kago",
+    "subtitle": "Ditharollo tse feletseng tsa kago le kaonafatso ka dingwaga tse 14+ tsa boiphihlelo",
+    "tiling": "Go Beha Ditheilara",
+    "tilingDesc": "Kago ya setsebi ya ditheilara mo mafatsheng, mading le dipindu",
+    "plastering": "Go Phahla",
+    "plasteringDesc": "Ditirelo tsa setsebi tsa go phahla ka teng le ka ntle",
+    "brickwork": "Tiro ya Dithene",
+    "brickworkDesc": "Kago ya dithene ya maemo a a kwa godimo ya sebopego le bontle",
+    "painting": "Go Penta",
+    "paintingDesc": "Ditirelo tsa setsebi tsa go penta ka teng le ka ntle ka pheletso e e phethagetseng",
+    "paving": "Go Aga Ditsela",
+    "pavingDesc": "Go aga ditsela tsa dikoloi le ditsela tsa go tsamaya ka didirisiwa tse di nnang",
+    "plumbing": "Metsi",
+    "plumbingDesc": "Kago e e feletseng ya metsi le ditirelo tsa tokafatso",
+    "carpentry": "Tiro ya Logong",
+    "carpentryDesc": "Ditiro tsa setso tsa logong le ditharollo tsa boenjiniere",
+    "maintenance": "Tlhokomelo",
+    "maintenanceDesc": "Ditirelo tse di tswelang pele tsa tlhokomelo le tokafatso"
+  }
+}

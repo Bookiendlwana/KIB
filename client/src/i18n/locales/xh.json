@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "services": "Iinkonzo",
+    "projects": "Iiprojekthi",
+    "about": "Ngathi",
+    "reviews": "Uphononongo",
+    "contact": "Qhagamshelana",
+    "costEstimator": "Isibalo Sexabiso",
+    "getQuote": "Fumana Iqoute",
+    "gallery": "Igalari"
+  },
+  "hero": {
+    "title": "Umnikezeli Wenkonzo Yokwakha Nolungiso",
+    "subtitle": "Asikhombi ngobuhle nje; sikumayelana nokudala isiseko esingenakundidhwa, esiginyayo nesibonwayo ngaphakathi nangaphandle.",
+    "aboutUs": "Ngathi"
+  },
+  "about": {
+    "title": "Umbono Weshishini",
+    "description": "I-Kanguya builders yaqala njengabasebenzi abaqhelekileyo bekhontraki ngo-2010 eKapa, eMzantsi Afrika, yathatha iiprojekthi ezincinci zokwakha eKapa. Ukusuka ngo-2010-2018, i-Kanguya builders yayaziwa njengoTrust Builders. Ekupheleni kuka-2018, i-Kanguya builders yafudukela eZambia apho yathatha iiprojekthi ezininzi zokwakha yatshintsha igama layo yaba yi-Kanguya Builders eLusaka kude kube ngu-2021. Ngo-2022, sabuyela eKapa, eMzantsi Afrika apho sazisekela ngokupheleleyo njengabadlali abanamandla kwishishini lokwakha, sithatha iiprojekthi ezincinci neziphakathi, senza imisebenzi yokulawula iiprojekthi, sinika iinkonzo ezigqwesileyo, sinikeza izisombululo zobunjineli kurhwebo kubathengi bethu.",
+    "vision": "Umbono Wethu",
+    "visionText": "Ukuba ngamakhongolose okwakha ahlonitshwayo kwaye sinikeze ngaphezulu kwelindelo ngalo lonke ixesha kwaye sifake isandla kwisicwangciso sophuhliso lweziseko zase-Afrika kwaye sidlale indima yokudala imisebenzi kubantu abancinci base-Afrika.",
+    "philosophy": "Ifilosofi Yethu Yokulawula Nokuqhuba Iiprojekthi",
+    "philosophyPoints": {
+      "safety": "Ukuqinisekisa ukhuseleko nendawo yokusebenza efanelekileyo kwindawo ngalo lonke ixesha",
+      "planning": "Ukudala ishedyuli eneenkcukacha kunye nesicwangciso sezixhobo ukuhlangabezana neenjongo zabathengi bethu",
+      "communication": "Ukunxibelelana yonke imihla kubo bonke ababandakanyekayo kwiprojekthi",
+      "tracking": "Ukulandelela inkqubela yeprojekthi kwaye ulungise",
+      "supervision": "Ukongamela ngokufanelekileyo umgangatho womsebenzi owenziweyo",
+      "completion": "Ukugqiba kwaye uvule iiprojekthi ngexesha"
+    },
+    "yearsExperience": "Iminyaka Yamava",
+    "projectsCompleted": "Iiprojekthi Ezigqityiweyo",
+    "clientSatisfaction": "Ukwaneliseka Kwabathengi"
+  },
+  "common": {
+    "loading": "Iyalayisha...",
+    "error": "Impazamo",
+    "success": "Impumelelo",
+    "submitting": "Uyathumela...",
+    "submit": "Ngenisa",
+    "cancel": "Rhoxisa",
+    "close": "Vala",
+    "save": "Gcina",
+    "edit": "Hlela",
+    "delete": "Cima",
+    "view": "Jonga",
+    "back": "Buya",
+    "next": "Okulandelayo",
+    "previous": "Okwangaphambili",
+    "search": "Khangela",
+    "filter": "Cala",
+    "sort": "Cwangcisa",
+    "selectLanguage": "Khetha uLwimi"
+  },
+  "services": {
+    "title": "Iinkonzo Zethu Zokwakha",
+    "subtitle": "Izisombululo ezipheleleyo zokwakha nolungiso ngeminyaka eli-14+ yamava",
+    "tiling": "Ukufaka Iithayile",
+    "tilingDesc": "Ukufakwa kweethayile kwimigangatho, eludongeni nakwimphezulu",
+    "plastering": "Ukuphahla",
+    "plasteringDesc": "Iinkonzo zobuchwephesha bokukrwela ngaphakathi nangaphandle",
+    "brickwork": "Umsebenzi Wezitena",
+    "brickworkDesc": "Ukwakha izitena ezisemgangathweni ekwakhiwe nasebuhleni",
+    "painting": "Ukupeyinta",
+    "paintingDesc": "Iinkonzo zobuchwephesha zokupeyinta ngaphakathi nangaphandle ngokugqibeleleyo",
+    "paving": "Ukutyabaza",
+    "pavingDesc": "Ukutyabaza kweendlela zokuhamba neendlela ezizeleyo ngemathiriyeli ahlala ixesha elide",
+    "plumbing": "Amanzi",
+    "plumbingDesc": "Ukufakwa okugqibeleleyo kwamanzi neenkonzo zokulungisa",
+    "carpentry": "Ubunjineli bamathi",
+    "carpentryDesc": "Imisebenzi yeengcali yamathi nezisombululo zobunjineli",
+    "maintenance": "Ugcino",
+    "maintenanceDesc": "Iinkonzo eziqhubekayo zogcino nezolungiso"
+  },
+  "header": {
+    "tagline": "UKWAKHA NGOBUGCISA",
+    "whatsappButton": "Thetha ku-WhatsApp",
+    "getQuoteButton": "Fumana Iqoute"
+  },
+  "footer": {
+    "description": "Wamkelekile ku-Kanguya Builders, umthombo owethembekileyo weenkonzo zokwakha nolungiso lwezakhiwo ezikwizinga eliphezulu. Ngamava angaphezu kweminyaka eli-14 kwishishini lokwakha, sikholelwa kakhulu ekunikezeleni izisombululo ezingenasiphako.",
+    "topServices": "Iinkonzo Zethu Eziphambili",
+    "quickLinks": "Amakhongolose Akhawulezayo",
+    "contactInfo": "Iinkcukacha Zonxibelelwano",
+    "copyright": "© 2024 Kanguya Builders. Onke amalungelo agciniwe. | Iinkonzo Zokwakha Nolungiso Zobugcisa",
+    "links": {
+      "about": "Ngathi"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "iKapa 7455"
+    },
+    "hours": "ngoMvulo-ngoLwesihlanu: 9AM-6PM"
+  }
+}

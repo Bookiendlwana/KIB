@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "services": "Huduma",
+    "projects": "Miradi",
+    "about": "Kuhusu",
+    "reviews": "Maoni",
+    "contact": "Wasiliana",
+    "costEstimator": "Kikokotoo cha Gharama",
+    "getQuote": "Pata Nukuu",
+    "gallery": "Jumba la Picha"
+  },
+  "header": {
+    "tagline": "UJENZI WA KITAALAMU",
+    "whatsappButton": "Ongea kwenye WhatsApp",
+    "getQuoteButton": "Pata Nukuu"
+  },
+  "about": {
+    "title": "Muhtasari wa Biashara",
+    "description": "Kanguya builders ilianza kama wafanyakazi wa jumla wa ukandarasi mwaka 2010 huko Cape Town, Afrika Kusini, ikifanya miradi midogo ya ujenzi karibu na Cape Town. Kuanzia 2010-2018, Kanguya builders ilijulikana kama Trust Builders. Mwishoni mwa 2018, Kanguya builders ilihamia Zambia ambapo tulifanya miradi kadhaa ya ujenzi na kubadilisha jina letu kuwa Kanguya Builders karibu na Lusaka hadi 2021. Mwaka 2022, tulirudi Cape Town, Afrika Kusini ambapo tulijisasisisha kikamilifu kama wachezaji wa nguvu katika sekta ya ujenzi, tukifanya miradi ya kiwango cha kati na cha chini, tukifanya majukumu ya usimamizi wa miradi, tukitoa huduma za kipekee, na kutoa suluhisho za uhandisi wa kibiashara kwa wateja wetu.",
+    "vision": "Maono Yetu",
+    "visionText": "Kuwa wakandarasi wa ujenzi wanaoheshimiwa na kutoa zaidi ya matarajio kila wakati na kuchangia mpango wa maendeleo ya miundombinu ya Afrika na kuchukua jukumu la kuunda ajira kwa vijana wa Afrika.",
+    "philosophy": "Falsafa Yetu ya Usimamizi na Utekelezaji wa Miradi",
+    "philosophyPoints": {
+      "safety": "Kuhakikisha usalama na mazingira ya kufaa ya kazi eneo kila wakati",
+      "planning": "Kuunda ratiba ya kina na mpango wa rasilimali ili kufikia malengo ya miradi ya wateja wetu",
+      "communication": "Kuwasiliana kila siku na wadau wote wa mradi",
+      "tracking": "Kufuatilia maendeleo ya mradi na kurekebisha",
+      "supervision": "Kusimamia kwa karibu ubora wa kazi inayofanywa",
+      "completion": "Kukamilisha na kuwasha miradi kwa wakati"
+    },
+    "yearsExperience": "Miaka ya Uzoefu",
+    "projectsCompleted": "Miradi Iliyokamilika",
+    "clientSatisfaction": "Kuridhika kwa Wateja"
+  },
+  "footer": {
+    "description": "Karibu Kanguya Builders, chanzo chako cha kuaminika cha huduma za ujenzi na ukarabati wa hali ya juu. Kwa uzoefu wa zaidi ya miaka 14 katika tasnia ya ujenzi, tuna fahari kubwa ya kutoa suluhisho kamili.",
+    "topServices": "Huduma Zetu Kuu",
+    "quickLinks": "Viungo vya Haraka",
+    "contactInfo": "Maelezo ya Mawasiliano",
+    "copyright": "© 2024 Kanguya Builders. Haki zote zimehifadhiwa. | Huduma za Kitaalamu za Ujenzi na Ukarabati",
+    "links": {
+      "about": "Kuhusu"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cape Town 7455"
+    },
+    "hours": "Jumatatu-Ijumaa: 9AM-6PM"
+  },
+  "services": {
+    "title": "Huduma Zetu za Ujenzi",
+    "subtitle": "Suluhisho kamili za ujenzi na ukarabati na uzoefu wa miaka 14+",
+    "tiling": "Kuweka Vigae",
+    "tilingDesc": "Uongozi wa kitaalamu wa vigae vya sakafu, ukuta na sehemu",
+    "plastering": "Kufingia",
+    "plasteringDesc": "Huduma za kitaalamu za kufingia za ndani na nje",
+    "brickwork": "Kazi ya Matofali",
+    "brickworkDesc": "Ujenzi wa matofali wa hali ya juu kwa muundo na uzuri",
+    "painting": "Kupaka Rangi",
+    "paintingDesc": "Huduma za kitaalamu za kupaka rangi za ndani na nje kwa umalizio kamili",
+    "paving": "Kupanga Njia",
+    "pavingDesc": "Kupanga njia za magari na njia za kutembea kwa vifaa vya kudumu",
+    "plumbing": "Bomba",
+    "plumbingDesc": "Uongozi kamili wa bomba na huduma za ukarabati",
+    "carpentry": "Useremala",
+    "carpentryDesc": "Kazi za mti za kawaida na suluhisho za useremala",
+    "maintenance": "Matengenezo",
+    "maintenanceDesc": "Huduma za matengenezo na ukarabati zinazoendela"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Hitilafu",
+    "success": "Mafanikio",
+    "submitting": "Inatuma...",
+    "submit": "Tuma",
+    "cancel": "Ghairi",
+    "close": "Funga",
+    "save": "Hifadhi",
+    "edit": "Hariri",
+    "delete": "Futa",
+    "view": "Angalia",
+    "back": "Rudi",
+    "next": "Ifuatayo",
+    "previous": "Iliyotangulia",
+    "search": "Tafuta",
+    "filter": "Chuja",
+    "sort": "Panga",
+    "selectLanguage": "Chagua Lugha"
+  }
+}

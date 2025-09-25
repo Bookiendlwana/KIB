@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "reviews": "Bewertungen",
+    "contact": "Kontakt",
+    "costEstimator": "Kostenschätzer",
+    "getQuote": "Angebot erhalten",
+    "gallery": "Galerie"
+  },
+  "hero": {
+    "title": "Ihr Bau- und Renovierungsdienstleister",
+    "subtitle": "Wir arbeiten nicht nur für Schönheit; wir schaffen eine makellose, dauerhafte und attraktive Grundlage für Innen- und Außenbereiche.",
+    "aboutUs": "Über uns"
+  },
+  "header": {
+    "tagline": "PROFESSIONELLER BAU",
+    "whatsappButton": "Chat auf WhatsApp",
+    "getQuoteButton": "Angebot erhalten"
+  },
+  "footer": {
+    "description": "Willkommen bei Kanguya Builders, Ihrer vertrauenswürdigen Quelle für hochwertige Bau- und Renovierungsdienstleistungen. Mit über 14 Jahren Erfahrung in der Baubranche sind wir stolz darauf, makellose Lösungen zu liefern.",
+    "topServices": "Unsere Top-Dienstleistungen",
+    "quickLinks": "Schnelllinks",
+    "contactInfo": "Kontaktinformationen",
+    "copyright": "© 2024 Kanguya Builders. Alle Rechte vorbehalten. | Professionelle Bau- & Renovierungsdienstleistungen",
+    "links": {
+      "about": "Über uns"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Kapstadt 7455"
+    },
+    "hours": "Mo-Fr: 9-18 Uhr"
+  },
+  "services": {
+    "title": "Unsere Baudienstleistungen",
+    "subtitle": "Umfassende Bau- und Renovierungslösungen mit 14+ Jahren Erfahrung",
+    "tiling": "Fliesenlegen",
+    "tilingDesc": "Professionelle Bodenbeläge, Wand- und Oberflächeninstallation",
+    "plastering": "Verputzen",
+    "plasteringDesc": "Professionelle Innen- und Außenputzdienstleistungen",
+    "brickwork": "Mauerwerk",
+    "brickworkDesc": "Qualitätsmauerwerk für Struktur und Schönheit",
+    "painting": "Malerei",
+    "paintingDesc": "Professionelle Innen- und Außenmalerei mit perfekter Ausführung",
+    "paving": "Pflasterung",
+    "pavingDesc": "Einfahrts- und Gehwegpflasterung mit langlebigen Materialien",
+    "plumbing": "Sanitär",
+    "plumbingDesc": "Komplette Sanitärinstallation und Reparaturdienstleistungen",
+    "carpentry": "Zimmerei",
+    "carpentryDesc": "Maßgeschneiderte Holzarbeiten und Zimmereilösungen",
+    "maintenance": "Wartung",
+    "maintenanceDesc": "Laufende Wartungs- und Reparaturdienstleistungen"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "submitting": "Wird gesendet...",
+    "submit": "Senden",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "view": "Ansehen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige",
+    "search": "Suchen",
+    "filter": "Filter",
+    "sort": "Sortieren",
+    "selectLanguage": "Sprache wählen"
+  }
+}

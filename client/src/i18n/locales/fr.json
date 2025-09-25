@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "projects": "Projets",
+    "about": "À Propos",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "costEstimator": "Estimateur de Coûts",
+    "getQuote": "Obtenir un Devis",
+    "gallery": "Galerie"
+  },
+  "hero": {
+    "title": "Fournisseur de Services de Construction et Rénovation",
+    "subtitle": "Il ne s'agit pas seulement d'esthétique ; il s'agit de créer une fondation fluide, durable et visuellement attrayante pour vos intérieurs et extérieurs.",
+    "aboutUs": "À Propos de Nous"
+  },
+  "about": {
+    "title": "Aperçu de l'Entreprise",
+    "description": "Kanguya builders a commencé comme des travailleurs généraux entrepreneurs en 2010 au Cap, en Afrique du Sud, entreprenant de petits projets de construction autour du Cap. De 2010 à 2018, Kanguya builders était connu sous le nom de Trust Builders. Vers la fin de 2018, Kanguya builders a déménagé en Zambie où nous avons entrepris plusieurs projets de construction et avons changé notre nom en Kanguya Builders autour de Lusaka jusqu'en 2021. En 2022, nous sommes retournés au Cap, en Afrique du Sud où nous nous sommes pleinement établis comme des acteurs redoutables dans l'industrie du bâtiment, entreprenant des projets de petite et moyenne taille, jouant des rôles de gestion de projet, rendant des services exceptionnels, et fournissant des solutions d'ingénierie commerciale à nos clients.",
+    "vision": "Notre Vision",
+    "visionText": "Être des entrepreneurs en bâtiment respectables et livrer au-delà des attentes en tout temps et contribuer au plan de développement des infrastructures de l'Afrique et jouer un rôle dans la création d'emplois pour les jeunes africains.",
+    "philosophy": "Notre Philosophie de Gestion et d'Exécution de Projets",
+    "philosophyPoints": {
+      "safety": "Assurer la sécurité et un environnement de travail propice sur site en tout temps",
+      "planning": "Créer un planning détaillé et un plan de ressources pour atteindre les objectifs de projet de nos clients",
+      "communication": "Communiquer quotidiennement avec tous les intervenants du projet",
+      "tracking": "Suivre les progrès du projet et ajuster",
+      "supervision": "Superviser étroitement la qualité du travail effectué",
+      "completion": "Terminer et mettre en service les projets à temps"
+    },
+    "yearsExperience": "Années d'Expérience",
+    "projectsCompleted": "Projets Terminés",
+    "clientSatisfaction": "Satisfaction Client"
+  },
+  "header": {
+    "tagline": "CONSTRUCTION PROFESSIONNELLE",
+    "whatsappButton": "Chatter sur WhatsApp",
+    "getQuoteButton": "Obtenir un devis"
+  },
+  "footer": {
+    "description": "Bienvenue chez Kanguya Builders, votre source fiable pour des services de construction et de rénovation de haute qualité. Avec plus de 14 ans d'expérience dans l'industrie du bâtiment, nous sommes fiers de fournir des solutions impeccables.",
+    "topServices": "Nos services principaux",
+    "quickLinks": "Liens rapides",
+    "contactInfo": "Informations de contact",
+    "copyright": "© 2024 Kanguya Builders. Tous droits réservés. | Services de construction et rénovation professionnels",
+    "links": {
+      "about": "À propos"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Le Cap 7455"
+    },
+    "hours": "Lun-Ven: 9h-18h"
+  },
+  "services": {
+    "title": "Nos Services de Construction",
+    "subtitle": "Solutions complètes de construction et rénovation avec plus de 14 ans d'expérience",
+    "tiling": "Carrelage",
+    "tilingDesc": "Installation professionnelle de carreaux pour sols, murs et dosserets",
+    "plastering": "Plâtrage",
+    "plasteringDesc": "Services experts de plâtrage pour murs intérieurs et extérieurs",
+    "brickwork": "Maçonnerie",
+    "brickworkDesc": "Construction de maçonnerie de qualité pour applications structurelles et décoratives",
+    "painting": "Peinture",
+    "paintingDesc": "Services de peinture intérieure et extérieure avec finitions premium",
+    "paving": "Pavage",
+    "pavingDesc": "Pavage d'allées et de passages avec matériaux durables",
+    "plumbing": "Plomberie",
+    "plumbingDesc": "Services complets d'installation et de réparation de plomberie",
+    "carpentry": "Menuiserie",
+    "carpentryDesc": "Travail du bois personnalisé et solutions de menuiserie",
+    "maintenance": "Maintenance",
+    "maintenanceDesc": "Services continus de maintenance et de réparation"
+  },
+  "costEstimator": {
+    "title": "Outil d'Estimation des Coûts",
+    "subtitle": "Obtenez une estimation approximative pour votre projet de construction. Entrez les détails de votre projet ci-dessous pour recevoir un coût approximatif basé sur nos tarifs actuels.",
+    "projectDetails": "Détails du Projet",
+    "projectDetailsDesc": "Fournissez les informations de votre projet pour l'estimation des coûts",
+    "serviceType": "Type de Service",
+    "selectService": "Sélectionnez un service",
+    "area": "Taille de la Zone (Mètres Carrés)",
+    "areaPlaceholder": "ex., 50",
+    "complexity": "Complexité du Projet",
+    "selectComplexity": "Sélectionnez le niveau de complexité",
+    "basic": "Basique - Matériaux standard et conception simple",
+    "standard": "Standard - Matériaux de bonne qualité et complexité modérée",
+    "premium": "Premium - Matériaux haut de gamme et conception complexe",
+    "location": "Emplacement du Projet",
+    "locationPlaceholder": "ex., Le Cap, Afrique du Sud",
+    "calculate": "Calculer l'Estimation",
+    "costEstimate": "Estimation des Coûts",
+    "ratePerSqm": "Tarif par m²",
+    "totalEstimate": "Estimation Totale",
+    "aboutEstimates": "À Propos de Nos Estimations",
+    "estimateDesc": "Notre estimateur de coûts fournit des estimations approximatives basées sur :",
+    "estimatePoints": [
+      "Tarifs actuels du marché pour matériaux et main-d'œuvre",
+      "Complexité du projet et exigences de qualité",
+      "Pratiques de construction standard",
+      "Nos 14+ années d'expérience dans l'industrie"
+    ],
+    "importantNote": "Important : Ceci est une estimation approximative. Les coûts finaux peuvent varier selon les exigences spécifiques, les conditions du site, les sélections de matériaux et les tarifs actuels du marché. Contactez-nous pour un devis détaillé.",
+    "readyToStart": "Prêt à commencer ?",
+    "contactDesc": "Contactez-nous pour un devis détaillé et une consultation professionnelle",
+    "getDetailedQuote": "Obtenir un Devis Détaillé",
+    "contactUs": "Contactez-nous"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Entrez en contact avec nous pour vos besoins de construction et rénovation",
+    "name": "Nom Complet",
+    "email": "Adresse E-mail",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer le Message",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "hours": "Heures d'Ouverture",
+    "mondayFriday": "Lun-Ven : 9h-18h"
+  },
+  "footer": {
+    "description": "Bienvenue chez Kanguya Builders, votre source fiable pour des services de construction et de rénovation de haute qualité. Avec plus de 14 ans d'expérience dans l'industrie du bâtiment, nous sommes immensément fiers de livrer des solutions impeccables.",
+    "topServices": "Nos Principaux Services",
+    "quickLinks": "Liens Rapides",
+    "contactInfo": "Informations de Contact",
+    "copyright": "© 2024 Kanguya Builders. Tous droits réservés. | Services Professionnels de Construction et Rénovation"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "submitting": "Envoi en cours...",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "save": "Sauvegarder",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "view": "Voir",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "selectLanguage": "Sélectionner la Langue"
+  }
+}

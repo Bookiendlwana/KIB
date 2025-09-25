@@ -1,0 +1,271 @@
+{
+  "nav": {
+    "home": "Tuis",
+    "services": "Dienste",
+    "projects": "Projekte",
+    "about": "Oor Ons",
+    "reviews": "Resensies",
+    "contact": "Kontak",
+    "costEstimator": "Koste Beramer",
+    "getQuote": "Kry Kwotasie",
+    "gallery": "Galery"
+  },
+  "hero": {
+    "title": "Bou & Renovasie Diensverskaffer",
+    "subtitle": "Ons gaan nie net oor estetika nie; dit gaan oor die skep van 'n naatlose, duursame en visueel aantreklike fondament vir jou binnekant en buitekant.",
+    "aboutUs": "Oor Ons"
+  },
+  "about": {
+    "title": "Besigheids Oorsig",
+    "description": "Kanguya builders het in 2010 in Kaapstad, Suid-Afrika, as algemene kontrakteur werkers begin en klein bouprojekte rondom Kaapstad onderneem. Van 2010-2018 was Kanguya builders bekend as Trust Builders. Teen die einde van 2018 het Kanguya builders na Zambië verhuis waar ons verskeie bouprojekte onderneem het en ons naam na Kanguya Builders verander het rondom Lusaka tot 2021. In 2022 het ons terug na Kaapstad, Suid-Afrika verhuis waar ons onsself ten volle as formidabele spelers in die bounywerheid gevestig het, klein en medium grootte projekte onderneem, projekbestuurrolle vervul, uitstaande dienste lewer, en kommersiële ingenieuroplossings aan ons kliënte verskaf.",
+    "vision": "Ons Visie",
+    "visionText": "Om respektabele boukontrakteurs te wees en altyd bo verwagting te lewer en by te dra tot Afrika se infrastruktuur ontwikkelingsplan en 'n rol te speel in werkskeping vir die Afrika jeug.",
+    "philosophy": "Ons Projekbestuur & Uitvoering Filosofie",
+    "philosophyPoints": {
+      "safety": "Verseker die veiligheid en bevorderlike werksomgewing op terrein te alle tye",
+      "planning": "Skep gedetailleerde skedule en hulpbron plan om ons kliënte se projek doelwitte te bereik",
+      "communication": "Kommunikeer daagliks met alle projek belanghebbendes",
+      "tracking": "Volg projek vordering en verfyn",
+      "supervision": "Toesig hou noukeurig oor kwaliteit van werk gedoen",
+      "completion": "Voltooi en stel die projekte betyds in bedryf"
+    },
+    "yearsExperience": "Jaar Ondervinding",
+    "projectsCompleted": "Projekte Voltooi",
+    "clientSatisfaction": "Kliënt Tevredenheid"
+  },
+  "services": {
+    "title": "Ons Konstruksie Dienste",
+    "subtitle": "Omvattende bou- en renovasie oplossings met 14+ jaar ondervinding",
+    "tiling": "Teëlwerk",
+    "tilingDesc": "Professionele teël installasie vir vloere, mure en rugplank",
+    "plastering": "Pleisterwerk",
+    "plasteringDesc": "Kundige pleisterdienste vir binne- en buitenmure",
+    "brickwork": "Steenwerk",
+    "brickworkDesc": "Kwaliteit steenwerk konstruksie vir strukturele en dekoratiewe toepassings",
+    "painting": "Verf",
+    "paintingDesc": "Binne- en buite verfwerk met premium afwerkings",
+    "paving": "Verharding",
+    "pavingDesc": "Oprit en voetpad verharding met duursame materiale",
+    "plumbing": "Loodgieterswerk",
+    "plumbingDesc": "Volledige loodgieter installasie en herstel dienste",
+    "carpentry": "Skrynwerk",
+    "carpentryDesc": "Pasgemaakte houtwerk en skrynwerk oplossings",
+    "maintenance": "Onderhoud",
+    "maintenanceDesc": "Deurlopende onderhoud en herstel dienste"
+  },
+  "costEstimator": {
+    "title": "Koste Beramer Instrument",
+    "subtitle": "Kry 'n rowwe beraming vir jou konstruksie projek. Voer jou projek besonderhede hieronder in om 'n benaderde koste te ontvang gebaseer op ons huidige tariewe.",
+    "projectDetails": "Projek Besonderhede",
+    "projectDetailsDesc": "Verskaf jou projek inligting vir koste beraming",
+    "serviceType": "Diens Tipe",
+    "selectService": "Kies 'n diens",
+    "area": "Area Grootte (Vierkante Meters)",
+    "areaPlaceholder": "bv., 50",
+    "complexity": "Projek Kompleksiteit",
+    "selectComplexity": "Kies kompleksiteit vlak",
+    "basic": "Basis - Standaard materiale en eenvoudige ontwerp",
+    "standard": "Standaard - Goeie kwaliteit materiale en matige kompleksiteit",
+    "premium": "Premium - Hoë-end materiale en komplekse ontwerp",
+    "location": "Projek Ligging",
+    "locationPlaceholder": "bv., Kaapstad, Suid-Afrika",
+    "calculate": "Bereken Beraming",
+    "costEstimate": "Koste Beraming",
+    "ratePerSqm": "Tarief per m²",
+    "totalEstimate": "Totale Beraming",
+    "aboutEstimates": "Oor Ons Beramings",
+    "estimateDesc": "Ons koste beramer verskaf rowwe beramings gebaseer op:",
+    "estimatePoints": [
+      "Huidige mark tariewe vir materiale en arbeid",
+      "Projek kompleksiteit en kwaliteit vereistes",
+      "Standaard konstruksie praktyke",
+      "Ons 14+ jaar bedryf ondervinding"
+    ],
+    "importantNote": "Belangrik: Dit is 'n benaderde beraming. Finale koste kan varieer gebaseer op spesifieke vereistes, terrein toestande, materiaal keuses, en huidige mark tariewe. Kontak ons vir 'n gedetailleerde kwotasie.",
+    "readyToStart": "Gereed om te begin?",
+    "contactDesc": "Kontak ons vir 'n gedetailleerde kwotasie en professionele konsultasie",
+    "getDetailedQuote": "Kry Gedetailleerde Kwotasie",
+    "contactUs": "Kontak Ons"
+  },
+  "gallery": {
+    "title": "Projek Galery",
+    "subtitle": "Verken ons portefeulje van voltooide projekte. Sien die kwaliteit vakmanskap en aandag aan detail wat Kanguya Builders onderskei.",
+    "categories": {
+      "all": "Alles",
+      "buildingWork": "Bouwerk",
+      "renovations": "Renovasies"
+    },
+    "items": {
+      "constructionProgress": "Konstruksie Vordering",
+      "foundationWork": "Fondament Werk",
+      "structuralWork": "Strukturele Werk",
+      "interiorWork": "Binnenshuise Werk",
+      "finishingWork": "Afwerking",
+      "qualityCraftsmanship": "Kwaliteit Vakmanskap",
+      "detailWork": "Detail Werk",
+      "professionalInstallation": "Professionele Installasie",
+      "constructionSite": "Konstruksie Terrein",
+      "projectCompletion": "Projek Voltooing",
+      "finalTouches": "Finale Afronding",
+      "qualityResults": "Kwaliteit Resultate",
+      "professionalWork": "Professionele Werk",
+      "constructionDetails": "Konstruksie Details",
+      "renovationWork": "Renovasie Werk",
+      "buildingProgress": "Bou Vordering",
+      "qualityFinish": "Kwaliteit Afwerking",
+      "completedWork": "Voltooide Werk",
+      "constructionProcess": "Konstruksie Proses"
+    },
+    "cta": {
+      "title": "Gereed om Jou Projek te Begin?",
+      "subtitle": "Laat ons ook iets wonderliks vir jou skep. Kontak ons vir 'n gratis konsultasie en kwotasie.",
+      "quote": "Kry Gratis Kwotasie",
+      "contact": "Kontak Ons"
+    }
+  },
+  "reviews": {
+    "title": "Kliënt Resensies & Getuigskrifte",
+    "subtitle": "Lees eerlike resensies van ons kliënte oor hulle ondervinding met Kanguya Builders. Jou terugvoer help ons om ons hoë standaarde te handhaaf.",
+    "authentic": {
+      "title": "Outentieke Kliënt Resensies",
+      "description": "Elke resensie kom van werklike kliënte wat ons konstruksie dienste eerstehands ervaar het."
+    }
+  },
+  "contact": {
+    "title": "Kontak Ons",
+    "subtitle": "Kom in aanraking met ons vir jou konstruksie en renovasie behoeftes",
+    "name": "Volle Naam",
+    "email": "E-pos Adres",
+    "subject": "Onderwerp",
+    "message": "Boodskap",
+    "send": "Stuur Boodskap",
+    "phone": "Telefoon",
+    "phoneDescription": "Bel ons vir onmiddellike hulp",
+    "whatsapp": "WhatsApp",
+    "whatsappDescription": "Gesels met ons op WhatsApp",
+    "facebook": "Facebook",
+    "facebookDescription": "Volg ons op Facebook",
+    "emailDescription": "Stuur vir ons 'n e-pos",
+    "address": "Adres",
+    "addressDescription": "Besoek ons kantoor ligging",
+    "hours": "Besigheid Ure",
+    "mondayFriday": "Ma-Vr: 9VM-6NM"
+  },
+  "quote": {
+    "title": "Kry Jou Gratis Kwotasie Vandag",
+    "subtitle": "Gereed om jou bou- of renovasie projek te begin? Kry 'n persoonlike kwotasie aangepas vir jou behoeftes.",
+    "toast": {
+      "success": "Kwotasie Versoek Ingedien",
+      "error": "Kon nie kwotasie versoek indien nie"
+    },
+    "form": {
+      "fullName": "Volle Naam *",
+      "fullNamePlaceholder": "Voer jou volle naam in",
+      "phoneNumber": "Telefoon Nommer *",
+      "phoneNumberPlaceholder": "+27 XX XXX XXXX",
+      "emailAddress": "E-pos Adres *",
+      "emailAddressPlaceholder": "jou@epos.com",
+      "projectType": "Projek Tipe *",
+      "selectProjectType": "Kies projek tipe",
+      "projectTypes": {
+        "newConstruction": "Nuwe Konstruksie",
+        "renovation": "Huis Renovasie",
+        "interiorExterior": "Binnekant/Buitekant Werk",
+        "maintenance": "Onderhoud & Herstelwerk",
+        "commercial": "Kommersiële Projek",
+        "other": "Ander"
+      },
+      "budgetRange": "Begroting Reeks",
+      "selectBudgetRange": "Kies begroting reeks",
+      "budgetRanges": {
+        "under5k": "Onder R5,000",
+        "5k15k": "R5,000 - R15,000",
+        "15k30k": "R15,000 - R30,000",
+        "30k50k": "R30,000 - R50,000",
+        "50k100k": "R50,000 - R100,000",
+        "over100k": "Oor R100,000",
+        "custom": "Aangepaste Bedrag"
+      },
+      "enterBudget": "Voer Jou Begroting In (R)",
+      "enterAmountPlaceholder": "Voer bedrag in Rand in",
+      "location": "Ligging *",
+      "locationPlaceholder": "Stad, Provinsie",
+      "projectDescription": "Projek Beskrywing *",
+      "projectDescriptionPlaceholder": "Beskryf asseblief jou projek in detail...",
+      "submitButton": "Kry Gratis Kwotasie"
+    }
+  },
+  "reviewForm": {
+    "title": "Deel Jou Ondervinding",
+    "description": "Help ander deur jou ondervinding met Kanguya Builders te deel. Jou eerlike terugvoer is waardevol vir ons en toekomstige kliënte.",
+    "success": {
+      "title": "Dankie vir Jou Resensie!",
+      "description": "Dankie vir jou resensie!",
+      "message": "Jou resensie is ingedien en sal gepubliseer word na ons hersieningsproses. Ons waardeer jou terugvoer en dit help ander kliënte om ingeligte besluite te neem.",
+      "submitAnother": "Dien Nog 'n Resensie In"
+    },
+    "error": {
+      "title": "Kon nie Resensie Indien nie",
+      "description": "Probeer asseblief weer later."
+    },
+    "form": {
+      "fullName": "Volle Naam *",
+      "fullNamePlaceholder": "Jou volle naam",
+      "emailAddress": "E-pos Adres *",
+      "emailPlaceholder": "jou@epos.com",
+      "phoneNumber": "Telefoon Nommer",
+      "phonePlaceholder": "+27 XX XXX XXXX",
+      "serviceUsed": "Diens Gebruik *",
+      "serviceUsedPlaceholder": "Kies die diens wat jy gebruik het",
+      "projectLocation": "Projek Ligging",
+      "locationPlaceholder": "bv., Kaapstad, Bellville",
+      "overallRating": "Algehele Gradering *",
+      "reviewTitle": "Resensie Titel *",
+      "reviewTitlePlaceholder": "bv., Uitstekende diens en kwaliteit werk",
+      "yourReview": "Jou Resensie *",
+      "reviewPlaceholder": "Deel besonderhede oor jou ondervinding met Kanguya Builders. Watter diens het jy gebruik? Hoe was die kwaliteit, tydsberekening en kliëntediens?",
+      "recommendQuestion": "Sou jy Kanguya Builders aan ander aanbeveel? *",
+      "recommendPlaceholder": "Kies jou aanbeveling"
+    }
+  },
+  "header": {
+    "tagline": "PROFESSIONELE KONSTRUKSIE",
+    "whatsappButton": "Gesels op WhatsApp",
+    "getQuoteButton": "Kry Kwotasie"
+  },
+  "footer": {
+    "description": "Welkom by Kanguya Builders, jou vertroude bron vir top-kwaliteit bou- en renovasiedienste. Met meer as 14 jaar ondervinding in die boubedryf, is ons trots daarop om onberisplike oplossings te lewer.",
+    "topServices": "Ons Top Dienste",
+    "quickLinks": "Vinnige Skakels",
+    "contactInfo": "Kontak Inligting",
+    "copyright": "© 2024 Kanguya Builders. Alle regte voorbehou. | Professionele Bou & Renovasie Dienste",
+    "links": {
+      "about": "Oor Ons"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Kaapstad 7455"
+    },
+    "hours": "Ma-Vr: 9VM-6NM"
+  },
+  "common": {
+    "loading": "Laai...",
+    "error": "Fout",
+    "success": "Sukses",
+    "submitting": "Dien In...",
+    "submit": "Indien",
+    "cancel": "Kanselleer",
+    "close": "Sluit",
+    "save": "Stoor",
+    "edit": "Redigeer",
+    "delete": "Verwyder",
+    "view": "Bekyk",
+    "back": "Terug",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "search": "Soek",
+    "filter": "Filter",
+    "sort": "Sorteer",
+    "selectLanguage": "Kies Taal"
+  }
+}

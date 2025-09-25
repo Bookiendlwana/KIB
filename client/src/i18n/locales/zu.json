@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "services": "Amasevisi",
+    "projects": "Amaphrojekthi",
+    "about": "Ngathi",
+    "reviews": "Ukubuyekezwa",
+    "contact": "Ukuxhumana",
+    "costEstimator": "Isibali Sezindleko",
+    "getQuote": "Thola Isilinganiso",
+    "gallery": "Igalari"
+  },
+  "hero": {
+    "title": "Umhlinzeki Wesevisi Yokwakha Nokuphinda Kulungiswe",
+    "subtitle": "Asikhombi nje ngobuhle; sikumayelana nokudala isisekelo esiphelelayo, esihlakaniphile futhi esibukekayo sembonakalo yangaphakathi nangaphandle.",
+    "aboutUs": "Ngathi"
+  },
+  "about": {
+    "title": "Ukubuka Ibhizinisi",
+    "description": "I-Kanguya builders yaqala njengabasebenzi abajwayelekile bekhontraktha ngo-2010 eKapa, eNingizimu Afrika, yathatha amaphrojekthi amancane okwakha eKapa. Kusukela ngo-2010-2018, i-Kanguya builders yayaziwa ngokuthi iTrust Builders. Ekupheleni kuka-2018, i-Kanguya builders yafudukela eZambia lapho yathatha amaphrojekthi amaningi okwakha yashintsha igama layo lafuya i-Kanguya Builders eLusaka kuze kube ngu-2021. Ngo-2022, sabuyela eKapa, eNingizimu Afrika lapho sazisekela ngokuphelele njengabadlali abanamandla embonini yokwakha, sithatha amaphrojekthi amancane naphakathi, senza imisebenzi yokuphatha amaphrojekthi, sinikeza amasevisi amahle, futhi sinikeza izixazululo zobunjiniyela bezemabhizinisi kumakhasimende ethu.",
+    "vision": "Umbono Wethu",
+    "visionText": "Ukuba ngabakhathi bokwakha abahlonitshwayo futhi sinikeze ngaphezu kwalokho okulindelekile ngaso sonke isikhathi futhi sifake isandla ohlelweni lokuthuthukisa ingqalasizinda ye-Afrika futhi sidlale indima yokudala amathuba emisebenzi entsheni yase-Afrika.",
+    "philosophy": "Ifilosofi Yethu Yokuphatha Nokuqhuba Amaphrojekthi",
+    "philosophyPoints": {
+      "safety": "Ukuqinisekisa ukuphepha nendawo yokusebenza efanele endaweni ngaso sonke isikhathi",
+      "planning": "Ukudala ishedyuli enemininingwane kanye nohlelo lwezinsiza ukuhlangabezana nezinhloso zamakhasimende ethu",
+      "communication": "Ukuxhumana nsuku zonke nabo bonke ababambiqhaza ephrojekthini",
+      "tracking": "Ukulandelela inqubekelaphambili yephrojekthi futhi ulungise",
+      "supervision": "Ukubona eduze ikhwalithi yomsebenzi owenziwe",
+      "completion": "Ukuqedela futhi uqalise amaphrojekthi ngesikhathi"
+    },
+    "yearsExperience": "Iminyaka Yolwazi",
+    "projectsCompleted": "Amaphrojekthi Aqediwe",
+    "clientSatisfaction": "Ukwaneliseka Kwamakhasimende"
+  },
+  "services": {
+    "title": "Amasevisi Ethu Okwakha",
+    "subtitle": "Izixazululo eziphelele zokwakha nokuphinda kulungiswe ngolwazi lweminyaka eyi-14+",
+    "tiling": "Ukufaka Amathayili",
+    "tilingDesc": "Ukufakwa kwamathayili ngchwebo phansi, ezindongeni nasezifinyezweni",
+    "plastering": "Ukugudla",
+    "plasteringDesc": "Amasevisi okugudla angchwebo endlini naphandle",
+    "brickwork": "Umsebenzi Wezitina",
+    "brickworkDesc": "Ukwakha izitina zekhwalithi ukuze kusetshenziswe kusakhiwo nasebuhleni",
+    "painting": "Ukupenda",
+    "paintingDesc": "Amasevisi okupenda ngaphakathi naphandle ngokuphela okukahle",
+    "paving": "Ukwenda Amadlelo",
+    "pavingDesc": "Ukwenda amadlelo namapasi ngezinto ezilawulekayo",
+    "plumbing": "Amanzi",
+    "plumbingDesc": "Ukufakwa nokuhlazilelwa kwamanzi ngokuphelele",
+    "carpentry": "Ubuso Obusebenzayo",
+    "carpentryDesc": "Umsebenzi wehlobo futhi izixazululo zobuchwepheshe",
+    "maintenance": "Ukulungiselela",
+    "maintenanceDesc": "Amasevisi aqhubekayo okulungiselela nokuhlaziya",
+    "plumbing": "Amanzi",
+    "carpentry": "Ubuso Obusebenzayo"
+  },
+  "costEstimator": {
+    "title": "Ithuluzi Lokulinganisa Izindleko",
+    "subtitle": "Thola isilinganiso esifanele sephrojekthi yakho yokwakha. Faka imininingwane yephrojekthi yakho lapha ukuze uthole isilinganiso esiseduze ngokususelwa emalini ethu amanje.",
+    "projectDetails": "Imininingwane Yephrojekthi",
+    "projectDetailsDesc": "Nikeza ulwazi lwephrojekthi yakho ukuze ulinganise izindleko",
+    "serviceType": "Uhlobo Lwesevisi",
+    "selectService": "Khetha isevisi",
+    "area": "Usayizi Wendawo (Amamitha Ayikwele)",
+    "areaPlaceholder": "isibonelo, 50",
+    "complexity": "Ubunzima Bephrojekthi",
+    "selectComplexity": "Khetha izinga lobuhlungu",
+    "basic": "Isisekelo - Izinto zokwakha ezivamile nokuklama okulula",
+    "standard": "Okuvamile - Izinto zekhwalithi ephezulu nobunzima obuphakathi",
+    "premium": "Okukahle - Izinto eziphezulu nobuciko obubucayi",
+    "location": "Indawo Yephrojekthi",
+    "locationPlaceholder": "isibonelo, eKapa, eNingizimu Afrika",
+    "calculate": "Bala Isilinganiso",
+    "costEstimate": "Isilinganiso Sezindleko",
+    "ratePerSqm": "Izinga nge-m²",
+    "totalEstimate": "Isilinganiso Esiphelele",
+    "aboutEstimates": "Ngezilinganiso Zethu",
+    "estimateDesc": "Isibali sethu sezindleko sinikeza izilinganiso eziyisisekelo ngokusekelwe ku:",
+    "estimatePoints": [
+      "Amanani emakethe amanje ezinto nezandla",
+      "Ubunzima bephrojekthi nezimfuno zekhwalithi",
+      "Izinqubo zokwakha ezivamile",
+      "Ulwazi lwethu lweminyaka eyi-14+ embonini"
+    ],
+    "importantNote": "Okubalulekile: Lesi isilinganiso esiseduze. Izindleko zokugcina zingahluka ngokusekelwe ezimfunweni ezithile, izimo zendawo, ukukhetha izinto, namanani emakethe amanje. Sixhumane nathi ukuze uthole isilinganiso esinomelakubone.",
+    "readyToStart": "Ukulungele ukuqala?",
+    "contactDesc": "Sixhumane nathi ukuze uthole isilinganiso esinomelakubone kanye nokuceluleka kochwepheshe",
+    "getDetailedQuote": "Thola Isilinganiso Esinomelakubone",
+    "contactUs": "Sixhumane Nathi"
+  },
+  "contact": {
+    "title": "Sixhumane Nathi",
+    "subtitle": "Thintana nathi ngezidingo zakho zokwakha nokuphinda kulungiswe",
+    "name": "Igama Eliphelele",
+    "email": "Ikheli le-Imeyili",
+    "subject": "Isihloko",
+    "message": "Umlayezo",
+    "send": "Thumela Umlayezo",
+    "phone": "Ifoni",
+    "address": "Ikheli",
+    "hours": "Amahora Ebhizinisi",
+    "mondayFriday": "ngoLwesi-ngoLwesihlanu: 9AM-6PM"
+  },
+  "footer": {
+    "description": "Siyakwamukela ku-Kanguya Builders, umthombo owethembekile wamasevisi okwakha nokuphinda kulungiswe akhwalithi ephezulu. Ngolwazi olungaphezu kweminyaka eyi-14 embonini yokwakha, siziqhenya kakhulu ngokuletha izixazululo ezingenaso iphambeko.",
+    "topServices": "Amasevisi Ethu Aphezulu",
+    "quickLinks": "Izixhumanisi Ezisheshayo",
+    "contactInfo": "Ulwazi Lokuxhumana",
+    "copyright": "© 2024 Kanguya Builders. Wonke amalungelo avikelwe. | Amasevisi Okwakha Nokuphinda Kulungiswe Angchwepheshe",
+    "links": {
+      "about": "Ngathi"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cape Town 7455"
+    },
+    "hours": "ngoMsombuluko-ngoLwesihlanu: 9AM-6PM"
+  },
+  "common": {
+    "loading": "Iyalayisha...",
+    "error": "Iphutha",
+    "success": "Impumelelo",
+    "submitting": "Kuthunyelwa...",
+    "submit": "Thumela",
+    "cancel": "Khansela",
+    "close": "Vala",
+    "save": "Londoloza",
+    "edit": "Hlela",
+    "delete": "Susa",
+    "view": "Buka",
+    "back": "Emuva",
+    "next": "Okulandelayo",
+    "previous": "Okwangaphambili",
+    "search": "Sesha",
+    "filter": "Hlunga",
+    "sort": "Hlukanisa",
+    "selectLanguage": "Khetha Ulimi"
+  },
+  "header": {
+    "tagline": "UKWAKHA NGOBUNGCWETI",
+    "whatsappButton": "Xoxa ku-WhatsApp",
+    "getQuoteButton": "Thola Isilinganiso"
+  }
+}

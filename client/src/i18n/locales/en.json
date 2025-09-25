@@ -1,0 +1,307 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "reviews": "Reviews",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "costEstimator": "Cost Estimator",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "title": "Building Excellence in Cape Town",
+    "subtitle": "With over 14 years of experience, we create seamless, durable, and visually appealing foundations for your interiors and exteriors. From brickwork to waterproofing, we handle all your construction needs.",
+    "aboutUs": "About Us"
+  },
+  "about": {
+    "title": "Business Overview",
+    "description": "Kanguya builders began as general contractor workers in 2010 in Cape Town, South Africa, undertaking small building projects around Cape Town. From 2010-2018, Kanguya builders were known as Trust Builders. Towards the end of 2018, Kanguya builders moved to Zambia where we undertook several building projects and changed our name to Kanguya Builders around Lusaka until 2021. In 2022, we moved back to Cape Town, South Africa where we fully established ourselves as formidable players in the building industry, undertaking small and medium size projects, performing project management roles, rendering outstanding services, and providing commercial engineering solutions to our clients.",
+    "vision": "Our Vision",
+    "visionText": "To be respectable building contractors and delivering beyond expectation at all times and contribute to Africa infrastructure development plan and to play a role of jobs creation to the African youth.",
+    "philosophy": "Our Project Management & Execution Philosophy",
+    "philosophyPoints": {
+      "safety": "Ensuring the safety and conducive working environment on site at all times",
+      "planning": "Create detailed schedule and resources plan to meet our clients' project objectives",
+      "communication": "Communicate daily with all project stakeholders",
+      "tracking": "Track project progress and fine-tune",
+      "supervision": "Supervise closely on quality of work done",
+      "completion": "Complete and commission the projects on time"
+    },
+    "yearsExperience": "Years Experience",
+    "projectsCompleted": "Projects Completed",
+    "clientSatisfaction": "Client Satisfaction"
+  },
+  "services": {
+    "title": "Our Construction Services",
+    "subtitle": "Comprehensive building and renovation solutions with 14+ years of experience",
+    "tiling": "Tiling",
+    "tilingDesc": "Professional tile installation for floors, walls, and backsplashes",
+    "plastering": "Plastering",
+    "plasteringDesc": "Expert plastering services for interior and exterior walls",
+    "brickwork": "Brickwork",
+    "brickworkDesc": "Quality brickwork construction for structural and decorative applications",
+    "painting": "Painting",
+    "paintingDesc": "Interior and exterior painting services with premium finishes",
+    "paving": "Paving",
+    "pavingDesc": "Driveway and walkway paving with durable materials",
+    "plumbing": "Plumbing",
+    "plumbingDesc": "Complete plumbing installation and repair services",
+    "carpentry": "Carpentry",
+    "carpentryDesc": "Custom woodwork and carpentry solutions",
+    "maintenance": "Maintenance",
+    "maintenanceDesc": "Ongoing maintenance and repair services"
+  },
+  "projects": {
+    "title": "Our Special Projects",
+    "subtitle": "Our commitment to excellence, attention to detail, and our unwavering commitment to ensuring customer satisfaction sets us apart as the premier choice for all your building and renovation needs.",
+    "featured": "Featured Projects",
+    "portfolio": "Our Projects Portfolio",
+    "portfolioSubtitle": "Explore our comprehensive collection of construction, renovation, and specialized building projects across Cape Town and beyond.", 
+    "viewDetails": "View Details",
+    "location": "Location",
+    "year": "Year",
+    "category": "Category",
+    "duration": "Duration",
+    "durationLabel": "Duration",
+    "client": "Client",
+    "scope": "Project Scope",
+    "challenges": "Challenges",
+    "solution": "Our Solution",
+    "overview": "Project Overview",
+    "materials": "Materials Used",
+    "materialsEquipment": "Materials & Equipment",
+    "teamSize": "Team Size",
+    "teamSizeLabel": "Team Size",
+    "completed": "Completed",
+    "interestedSimilar": "Interested in a Similar Project?",
+    "contactConsultation": "Contact us today for a free consultation and quote for your construction needs.",
+    "callNow": "Call Now",
+    "chatWhatsApp": "Chat on WhatsApp"
+  },
+  "costEstimator": {
+    "title": "Cost Estimator Tool",
+    "subtitle": "Get a rough estimate for your construction project. Enter your project details below to receive an approximate cost based on our current rates.",
+    "projectDetails": "Project Details",
+    "projectDetailsDesc": "Provide your project information for cost estimation",
+    "serviceType": "Service Type",
+    "selectService": "Select a service",
+    "area": "Area Size (Square Meters)",
+    "areaPlaceholder": "e.g., 50",
+    "complexity": "Project Complexity",
+    "selectComplexity": "Select complexity level",
+    "basic": "Basic - Standard materials and simple design",
+    "standard": "Standard - Good quality materials and moderate complexity",
+    "premium": "Premium - High-end materials and complex design",
+    "location": "Project Location",
+    "locationPlaceholder": "e.g., Cape Town, South Africa",
+    "calculate": "Calculate Estimate",
+    "costEstimate": "Cost Estimate",
+    "ratePerSqm": "Rate per m²",
+    "totalEstimate": "Total Estimate",
+    "aboutEstimates": "About Our Estimates",
+    "estimateDesc": "Our cost estimator provides rough estimates based on:",
+    "estimatePoints": [
+      "Current market rates for materials and labor",
+      "Project complexity and quality requirements",
+      "Standard construction practices",
+      "Our 14+ years of industry experience"
+    ],
+    "importantNote": "Important: This is an approximate estimate. Final costs may vary based on specific requirements, site conditions, material selections, and current market rates. Contact us for a detailed quote.",
+    "readyToStart": "Ready to get started?",
+    "contactDesc": "Contact us for a detailed quote and professional consultation",
+    "getDetailedQuote": "Get Detailed Quote",
+    "contactUs": "Contact Us"
+  },
+  "gallery": {
+    "title": "Project Gallery",
+    "subtitle": "Explore our portfolio of completed projects. See the quality craftsmanship and attention to detail that sets Kanguya Builders apart.",
+    "categories": {
+      "all": "All",
+      "buildingWork": "Building Work",
+      "renovations": "Renovations"
+    },
+    "items": {
+      "constructionProgress": "Construction Progress",
+      "foundationWork": "Foundation Work",
+      "structuralWork": "Structural Work",
+      "interiorWork": "Interior Work",
+      "finishingWork": "Finishing Work",
+      "qualityCraftsmanship": "Quality Craftsmanship",
+      "detailWork": "Detail Work",
+      "professionalInstallation": "Professional Installation",
+      "constructionSite": "Construction Site",
+      "projectCompletion": "Project Completion",
+      "finalTouches": "Final Touches",
+      "qualityResults": "Quality Results",
+      "professionalWork": "Professional Work",
+      "constructionDetails": "Construction Details",
+      "renovationWork": "Renovation Work",
+      "buildingProgress": "Building Progress",
+      "qualityFinish": "Quality Finish",
+      "completedWork": "Completed Work",
+      "constructionProcess": "Construction Process"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Let us create something amazing for you too. Get in touch for a free consultation and quote.",
+      "quote": "Get Free Quote",
+      "contact": "Contact Us"
+    }
+  },
+  "reviews": {
+    "title": "Client Reviews & Testimonials",
+    "subtitle": "Read honest reviews from our clients about their experience with Kanguya Builders. Your feedback helps us maintain our high standards and helps others make informed decisions.",
+    "noReviews": "No Reviews Yet",
+    "noReviewsDesc": "Be the first to share your experience with Kanguya Builders!",
+    "basedOn": "Based on",
+    "customerReview": "customer review",
+    "customerReviews": "customer reviews",
+    "recommends": "Recommends",
+    "wouldRecommend": "Would recommend",
+    "toOthers": "to others",
+    "authentic": {
+      "title": "Authentic Customer Reviews",
+      "description": "Every review is from real customers who have experienced our construction services firsthand."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for your construction and renovation needs",
+    "name": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "phone": "Phone",
+    "phoneDescription": "Call us for immediate assistance",
+    "whatsapp": "WhatsApp",
+    "whatsappDescription": "Chat with us on WhatsApp",
+    "facebook": "Facebook",
+    "facebookDescription": "Follow us on Facebook",
+    "emailDescription": "Send us an email",
+    "address": "Address",
+    "addressDescription": "Visit our office location",
+    "hours": "Business Hours",
+    "mondayFriday": "Mon-Fri: 9AM-6PM"
+  },
+  "quote": {
+    "title": "Get Your Free Quote Today",
+    "subtitle": "Ready to start your building or renovation project? Get a personalized quote tailored to your needs.",
+    "toast": {
+      "success": "Quote Request Submitted",
+      "error": "Failed to submit quote request"
+    },
+    "form": {
+      "fullName": "Full Name *",
+      "fullNamePlaceholder": "Enter your full name",
+      "phoneNumber": "Phone Number *",
+      "phoneNumberPlaceholder": "+27 XX XXX XXXX",
+      "emailAddress": "Email Address *",
+      "emailAddressPlaceholder": "your@email.com",
+      "projectType": "Project Type *",
+      "selectProjectType": "Select project type",
+      "projectTypes": {
+        "newConstruction": "New Construction",
+        "renovation": "Home Renovation",
+        "interiorExterior": "Interior/Exterior Work",
+        "maintenance": "Maintenance & Repairs",
+        "commercial": "Commercial Project",
+        "other": "Other"
+      },
+      "budgetRange": "Budget Range",
+      "selectBudgetRange": "Select budget range",
+      "budgetRanges": {
+        "under5k": "Under R5,000",
+        "5k15k": "R5,000 - R15,000",
+        "15k30k": "R15,000 - R30,000",
+        "30k50k": "R30,000 - R50,000",
+        "50k100k": "R50,000 - R100,000",
+        "over100k": "Over R100,000",
+        "custom": "Custom Amount"
+      },
+      "enterBudget": "Enter Your Budget (R)",
+      "enterAmountPlaceholder": "Enter amount in Rands",
+      "location": "Location *",
+      "locationPlaceholder": "City, Province",
+      "projectDescription": "Project Description *",
+      "projectDescriptionPlaceholder": "Please describe your project in detail...",
+      "submitButton": "Get Free Quote"
+    }
+  },
+  "footer": {
+    "description": "Welcome to Kanguya Builders, your trusted source for top-quality building and renovation services. With over 14 years of experience in the building industry, we take immense pride in delivering impeccable solutions.",
+    "topServices": "Our Top Services",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "copyright": "© 2024 Kanguya Builders. All rights reserved. | Professional Building & Renovation Services",
+    "links": {
+      "about": "About Us"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cape Town 7455"
+    },
+    "hours": "Mon-Fri: 9AM-6PM"
+  },
+  "reviewForm": {
+    "title": "Share Your Experience",
+    "description": "Help others by sharing your experience with Kanguya Builders. Your honest feedback is valuable to us and future customers.",
+    "success": {
+      "title": "Thank You for Your Review!",
+      "description": "Thank you for your review!",
+      "message": "Your review has been submitted and will be published after our review process. We appreciate your feedback and it helps other customers make informed decisions.",
+      "submitAnother": "Submit Another Review"
+    },
+    "error": {
+      "title": "Failed to Submit Review",
+      "description": "Please try again later."
+    },
+    "form": {
+      "fullName": "Full Name *",
+      "fullNamePlaceholder": "Your full name",
+      "emailAddress": "Email Address *",
+      "emailPlaceholder": "your@email.com",
+      "phoneNumber": "Phone Number",
+      "phonePlaceholder": "+27 XX XXX XXXX",
+      "serviceUsed": "Service Used *",
+      "serviceUsedPlaceholder": "Select the service you used",
+      "projectLocation": "Project Location",
+      "locationPlaceholder": "e.g., Cape Town, Bellville",
+      "overallRating": "Overall Rating *",
+      "reviewTitle": "Review Title *",
+      "reviewTitlePlaceholder": "e.g., Excellent service and quality work",
+      "yourReview": "Your Review *",
+      "reviewPlaceholder": "Share details about your experience with Kanguya Builders. What service did you use? How was the quality, timing, and customer service?",
+      "recommendQuestion": "Would you recommend Kanguya Builders to others? *",
+      "recommendPlaceholder": "Select your recommendation"
+    }
+  },
+  "header": {
+    "tagline": "PROFESSIONAL CONSTRUCTION",
+    "whatsappButton": "Chat on WhatsApp",
+    "getQuoteButton": "Get Quote"
+  },
+  "common": {
+    "companyName": "Kanguya Builders",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "submitting": "Submitting...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "selectLanguage": "Select Language"
+  }
+}

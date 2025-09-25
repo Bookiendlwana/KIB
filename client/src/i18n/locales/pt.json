@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "projects": "Projetos",
+    "about": "Sobre",
+    "reviews": "Avaliações",
+    "contact": "Contato",
+    "costEstimator": "Estimador de Custos",
+    "getQuote": "Obter Orçamento",
+    "gallery": "Galeria"
+  },
+  "header": {
+    "tagline": "CONSTRUÇÃO PROFISSIONAL",
+    "whatsappButton": "Conversar no WhatsApp",
+    "getQuoteButton": "Obter Orçamento"
+  },
+  "about": {
+    "title": "Visão Geral do Negócio",
+    "description": "A Kanguya builders começou como trabalhadores gerais empreiteiros em 2010 na Cidade do Cabo, África do Sul, empreendendo pequenos projetos de construção ao redor da Cidade do Cabo. De 2010-2018, a Kanguya builders era conhecida como Trust Builders. No final de 2018, a Kanguya builders mudou-se para a Zâmbia onde empreendemos vários projetos de construção e mudamos nosso nome para Kanguya Builders ao redor de Lusaka até 2021. Em 2022, voltamos à Cidade do Cabo, África do Sul onde nos estabelecemos completamente como jogadores formidáveis na indústria de construção, empreendendo projetos de pequeno e médio porte, desempenhando papéis de gerenciamento de projetos, prestando serviços excepcionais, e fornecendo soluções de engenharia comercial aos nossos clientes.",
+    "vision": "Nossa Visão",
+    "visionText": "Ser empreiteiros de construção respeitáveis e entregar além das expectativas o tempo todo e contribuir para o plano de desenvolvimento de infraestrutura da África e desempenhar um papel na criação de empregos para a juventude africana.",
+    "philosophy": "Nossa Filosofia de Gerenciamento e Execução de Projetos",
+    "philosophyPoints": {
+      "safety": "Garantir segurança e ambiente de trabalho propício no local o tempo todo",
+      "planning": "Criar cronograma detalhado e plano de recursos para atender os objetivos do projeto dos nossos clientes",
+      "communication": "Comunicar diariamente com todos os stakeholders do projeto",
+      "tracking": "Acompanhar o progresso do projeto e ajustar",
+      "supervision": "Supervisionar de perto a qualidade do trabalho realizado",
+      "completion": "Completar e comissionar os projetos no prazo"
+    },
+    "yearsExperience": "Anos de Experiência",
+    "projectsCompleted": "Projetos Concluídos",
+    "clientSatisfaction": "Satisfação do Cliente"
+  },
+  "footer": {
+    "description": "Bem-vindos à Kanguya Builders, sua fonte confiável para serviços de construção e renovação de alta qualidade. Com mais de 14 anos de experiência na indústria da construção, temos muito orgulho de entregar soluções impecáveis.",
+    "topServices": "Nossos Principais Serviços",
+    "quickLinks": "Links Rápidos",
+    "contactInfo": "Informações de Contato",
+    "copyright": "© 2024 Kanguya Builders. Todos os direitos reservados. | Serviços Profissionais de Construção e Renovação",
+    "links": {
+      "about": "Sobre"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cidade do Cabo 7455"
+    },
+    "hours": "Seg-Sex: 9h-18h"
+  },
+  "services": {
+    "title": "Nossos Serviços de Construção",
+    "subtitle": "Soluções completas de construção e renovação com 14+ anos de experiência",
+    "tiling": "Azulejaria",
+    "tilingDesc": "Instalação profissional de azulejos para pisos, paredes e superfícies",
+    "plastering": "Reboco",
+    "plasteringDesc": "Serviços profissionais de reboco interior e exterior",
+    "brickwork": "Alvenaria",
+    "brickworkDesc": "Construção de alvenaria de qualidade para estrutura e beleza",
+    "painting": "Pintura",
+    "paintingDesc": "Serviços profissionais de pintura interior e exterior com acabamento perfeito",
+    "paving": "Pavimentação",
+    "pavingDesc": "Pavimentação de entradas e caminhos com materiais duráveis",
+    "plumbing": "Encanamento",
+    "plumbingDesc": "Instalação completa de encanamento e serviços de reparo",
+    "carpentry": "Carpintaria",
+    "carpentryDesc": "Trabalhos em madeira personalizados e soluções de carpintaria",
+    "maintenance": "Manutenção",
+    "maintenanceDesc": "Serviços contínuos de manutenção e reparo"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "submitting": "Enviando...",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "save": "Salvar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "view": "Ver",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "selectLanguage": "Selecionar Idioma"
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "nav": {
+    "home": "Imba",
+    "services": "Masevhisi",
+    "projects": "Mapurojekiti",
+    "about": "Nezvedu",
+    "reviews": "Ongororo",
+    "gallery": "Garidzira",
+    "contact": "Bata",
+    "costEstimator": "Chiyero Chemutengo",
+    "getQuote": "Tora Mutengo"
+  },
+  "hero": {
+    "title": "Kuvaka Kwakanaka muCape Town",
+    "subtitle": "Neruzivo rwemakore anopfuura gumi namana, tinogadzira hwaro hwakasimba, hwakaoma uye hunoyevedza hwekuvakira kwenyu mukati nekunze. Kubva pakuvaka nezvitina kusvika pakudzivirira mvura, tinogona zvese zvekuvaka zvenyu.",
+    "aboutUs": "Nezvedu"
+  },
+  "about": {
+    "title": "Ongororo yeBhizinesi",
+    "description": "Kanguya builders yakatanga sevashandi vekuvaka muna 2010 muCape Town, South Africa, vachiita mapurojekiti madiki ekuvaka muCape Town. Kubva 2010-2018, Kanguya builders yaizivikanwa seTrust Builders. Pakupera kwa2018, Kanguya builders yakatamira kuZambia uko takaitawo mapurojekiti akawanda ekuvaka uye tikachinja zita redu kuita Kanguya Builders muZunguru reLusaka kusvika muna 2021. Muna 2022, takadzokera kuCape Town, South Africa uko takazvisimbisa zvakazara sevatambi vane simba muindasitiri yekuvaka, tichiita mapurojekiti madiki nemepakati, tichiita basa rekutonga mapurojekiti, tichipa masevhisi akanaka, uye tichipa mhinduro dzeinjiniya yekutengesa kune vatengi vedu.",
+    "vision": "Chiratidzo Chedu",
+    "visionText": "Kuva vavaki vanokudzwa uye kuendesa zvinopfuura zvatinotarisira nguva dzese uye kubatsira kuhurongwa hwekuvandudza nharembozha dzeAfrica uye kutora chikamu mukugadzira mabasa kuvechidiki veAfrica.",
+    "philosophy": "Hufungwa Hwedu Hwekutonga Mapurojekiti Nekuita",
+    "philosophyPoints": {
+      "safety": "Kuve nechokwadi chekuchengeteka nenharaunda yakafanira yebasa panzvimbo nguva dzese",
+      "planning": "Kugadzira purogiramu yakadzama nehurongwa hwezvinodiwa kuti tikwanise zvinangwa zvevatengi vedu",
+      "communication": "Kutaurirana mazuva ese nevese vanobatanidzwa mupurojekiti",
+      "tracking": "Kutevera kufambira mberi kwepurojekiti nekugadzirisa",
+      "supervision": "Kutarisa pedyo hunhu hwebasa rakaitwa",
+      "completion": "Kupedza nekumisa mapurojekiti nenguva"
+    },
+    "yearsExperience": "Makore Eruzivo",
+    "projectsCompleted": "Mapurojekiti Akapera",
+    "clientSatisfaction": "Kugutsikana Kwevatengi"
+  },
+  "services": {
+    "title": "Masevhisi Edu Ekuvaka",
+    "subtitle": "Mhinduro dzakakwana dzekuvaka nekugadziridza nemakore e14+ eruzivo",
+    "tiling": "Kuisa Matayili",
+    "tilingDesc": "Kuisa matayili kwehunyanzvi papasi, pamadziro, uye kumashure",
+    "plastering": "Kupaka Dhaka",
+    "plasteringDesc": "Masevhisi ehunyanzvi ekupaka dhaka pamadziro emukati nekunze",
+    "brickwork": "Basa Rezvitina",
+    "brickworkDesc": "Kuvaka zvitina zvemhando pamusoro zvekuvaka uye zvishongedzwa",
+    "painting": "Kupenda",
+    "paintingDesc": "Masevhisi ekupenda mukati nekunze nemhinduro dzepamusoro",
+    "paving": "Kurongedza Migwagwa",
+    "pavingDesc": "Kurongedza migwagwa yemotokari neyekufamba nezvinhu zvakaoma",
+    "plumbing": "Kuisa Mapaipi",
+    "plumbingDesc": "Kuisa kwakakwana nekugadziridza masevhisi emapaipi",
+    "carpentry": "Basa Rematanda",
+    "carpentryDesc": "Zvinhu zvakaumbwa zvezvematanda nemhinduro dzebasa rematanda",
+    "maintenance": "Kuchengeta",
+    "maintenanceDesc": "Kuchengeta kusingaperi nekugadziridza masevhisi"
+  },
+  "projects": {
+    "title": "Mapurojekiti Edu Akakosha",
+    "subtitle": "Kuzvipira kwedu kuhunyanzvi, kutarira kune zvakadzama, uye kuzvipira kwedu kusingashandi kuona kuti vatengi vagutsikana zvinotisiyanisa sechisarudzo chekutanga chezvese zvinodaidzwa zvekuvaka nekugadziridza.",
+    "viewDetails": "Ona Zvakadzama",
+    "location": "Nzvimbo",
+    "year": "Gore",
+    "category": "Chikamu",
+    "duration": "Nguva",
+    "client": "Mutengi",
+    "scope": "Huwandu hwePurojekiti",
+    "challenges": "Matambudziko",
+    "solution": "Mhinduro",
+    "materials": "Zvinhu Zvakashandiswa",
+    "teamSize": "Huwandu hweChikwata"
+  },
+  "costEstimator": {
+    "title": "Chiridzwa Chekuyera Mutengo",
+    "subtitle": "Tora kufungidzira kwakafupi kwepurojekiti yako yekuvaka. Isa zvakadzama zvepurojekiti yako pazasi kuti ugamuchire mutengo unofungidzirwa zvinoenderana nemitengo yedu yazvino.",
+    "projectDetails": "Zvakadzama zvePurojekiti",
+    "projectDetailsDesc": "Ipa ruzivo rwepurojekiti yako kwekuyera mutengo",
+    "serviceType": "Rudzi rweSevhisi",
+    "selectService": "Sarudza sevhisi",
+    "area": "Hukuru hweNzvimbo (Mamita Makwere)",
+    "areaPlaceholder": "semuenzaniso, 50",
+    "complexity": "Kuoma kwePurojekiti",
+    "selectComplexity": "Sarudza chiyero chekuoma",
+    "basic": "Zvepasi - Zvinhu zvakajairwa nekugadzira kwakareruka",
+    "standard": "Zvepakati - Zvinhu zvakanaka uye kuoma kwepakati",
+    "premium": "Zvepamusoro - Zvinhu zvepamusoro uye kugadzira kwakaoma",
+    "location": "Nzvimbo yePurojekiti",
+    "locationPlaceholder": "semuenzaniso, Cape Town, South Africa",
+    "calculate": "Verengera Kufungidzira",
+    "costEstimate": "Kufungidzira Mutengo",
+    "ratePerSqm": "Chiyero pa m²",
+    "totalEstimate": "Kufungidzira Kwese",
+    "aboutEstimates": "Nezve Kufungidzira Kwedu",
+    "estimateDesc": "Chiyero chedu chemutengo chinopa kufungidzira kwakafupi zvinoenderana ne:",
+    "estimatePoints": [
+      "Mitengo yazvino yemusika yezvinhu nevashandi",
+      "Kuoma kwepurojekiti nezvinodiwa zvemhando",
+      "Nzira dzakajairwa dzekuvaka",
+      "Makore edu 14+ eruzivo muindasitiri"
+    ],
+    "importantNote": "Chakakosha: Ichi chiri kufungidzira kwakafupi. Mitengo yekupedzisira inogona kusiyana zvinoenderana nezvinodiwa chaizvo, mamiriro enzvimbo, kusarudza zvinhu, nemitengo yazvino yemusika. Batana nesu kuti uwane mutengo wakadzama.",
+    "readyToStart": "Wakagadzirira kutanga?",
+    "contactDesc": "Batana nesu kuti uwane mutengo wakadzama nekubvunzurudza kwehunyanzvi",
+    "getDetailedQuote": "Tora Mutengo Wakadzama",
+    "contactUs": "Batana Nesu"
+  },
+  "gallery": {
+    "title": "Garidzira rePurojekiti",
+    "subtitle": "Ongorora portfolio yedu yemapurojekiti akapera. Ona hunhu hwehunyanzvi uye kutarira kune zvakadzama zvinosiyanisa Kanguya Builders.",
+    "categories": {
+      "all": "Zvese",
+      "buildingWork": "Basa Rekuvaka",
+      "renovations": "Kugadziridza"
+    },
+    "items": {
+      "constructionProgress": "Kufambira mberi kweKuvaka",
+      "foundationWork": "Basa reHwaro",
+      "structuralWork": "Basa rekuvaka",
+      "interiorWork": "Basa reMukati",
+      "finishingWork": "Basa rekupedzisa",
+      "qualityCraftsmanship": "Hunyanzvi Hwemhando",
+      "detailWork": "Basa reZvakadzama",
+      "professionalInstallation": "Kuisa Kwehunyanzvi",
+      "constructionSite": "Nzvimbo yekuvaka",
+      "projectCompletion": "Kupedzisa kwePurojekiti",
+      "finalTouches": "Zvekupedzisira",
+      "qualityResults": "Migumisiro Yemhando",
+      "professionalWork": "Basa reHunyanzvi",
+      "constructionDetails": "Zvakadzama zveKuvaka",
+      "renovationWork": "Basa rekugadziridza",
+      "buildingProgress": "Kufambira mberi kweKuvaka",
+      "qualityFinish": "Kupedzisa Kwemhando",
+      "completedWork": "Basa Rakapera",
+      "constructionProcess": "Nzira yeKuvaka"
+    },
+    "cta": {
+      "title": "Wakagadzirira Kutanga Purojekiti Yako?",
+      "subtitle": "Rega tikugadzirire chimwe chinhu chinoshamisa zvakare. Taurirana nesu kuti uwane kubvunzurudza kwemahara nemutengo.",
+      "quote": "Tora Mutengo Wemahara",
+      "contact": "Batana Nesu"
+    }
+  },
+  "reviews": {
+    "title": "Ongororo dzeVatengi neUchapupu",
+    "subtitle": "Verenga ongororo dzechokwadi dzevatengi vedu nezve ruzivo rwavo neKanguya Builders. Mhinduro dzako dzinotibatyira kuchengetedza zviyero zvedu zvepamusoro uye kunobatsira vamwe kuita sarudzo dzine ruzivo.",
+    "authentic": {
+      "title": "Ongororo Dzechokwadi dzeVatengi",
+      "description": "Ongororo yega yega inobva kuvatengi vechokwadi vaka shandisa masevhisi edu ekuvaka vega."
+    }
+  },
+  "contact": {
+    "title": "Batana Nesu",
+    "subtitle": "Taura nesu kuti uwane zvaunoda zvekuvaka nekugadziridza",
+    "name": "Zita Rizere",
+    "email": "Kero yeEmail",
+    "subject": "Musoro",
+    "message": "Meseji",
+    "send": "Tumira Meseji",
+    "phone": "Runhare",
+    "phoneDescription": "Tifonere kuti uwane rubatsiro rwekukurumidza",
+    "whatsapp": "WhatsApp",
+    "whatsappDescription": "Taura nesu paWhatsApp",
+    "facebook": "Facebook",
+    "facebookDescription": "Titevere paFacebook",
+    "emailDescription": "Titumire email",
+    "address": "Kero",
+    "addressDescription": "Shanyira nzvimbo yehofisi yedu",
+    "hours": "Maawa eBhizinesi",
+    "mondayFriday": "Muv-Chis: 9AM-6PM"
+  },
+  "quote": {
+    "title": "Tora Mutengo Wako Wemahara Nhasi",
+    "subtitle": "Wakagadzirira kutanga purojekiti yako yekuvaka kana kugadziridza? Tora mutengo wakagadzirirwa unokwanira zvamunouda.",
+    "toast": {
+      "success": "Chikumbiro cheMusoro Chatumirwa",
+      "error": "Kutumira chikumbiro chemutengo kwakundikana"
+    },
+    "form": {
+      "fullName": "Zita Rizere *",
+      "fullNamePlaceholder": "Isa zita rako rizere",
+      "phoneNumber": "Nhamba yeRunhare *",
+      "phoneNumberPlaceholder": "+27 XX XXX XXXX",
+      "emailAddress": "Kero yeEmail *",
+      "emailAddressPlaceholder": "yako@email.com",
+      "projectType": "Rudzi rwePurojekiti *",
+      "selectProjectType": "Sarudza rudzi rwepurojekiti",
+      "projectTypes": {
+        "newConstruction": "Kuvaka Kutsva",
+        "renovation": "Kugadziridza Imba",
+        "interiorExterior": "Basa reMukati/Kunze",
+        "maintenance": "Kuchengeta neKugadziridza",
+        "commercial": "Purojekiti yeBhizinesi",
+        "other": "Chimwe"
+      },
+      "budgetRange": "Mwero weMari",
+      "selectBudgetRange": "Sarudza mwero wemari",
+      "budgetRanges": {
+        "under5k": "Pasi peR5,000",
+        "5k15k": "R5,000 - R15,000",
+        "15k30k": "R15,000 - R30,000",
+        "30k50k": "R30,000 - R50,000",
+        "50k100k": "R50,000 - R100,000",
+        "over100k": "Pamusoro peR100,000",
+        "custom": "Mari Yakasarudzwa"
+      },
+      "enterBudget": "Isa Mari Yako (R)",
+      "enterAmountPlaceholder": "Isa mari muRands",
+      "location": "Nzvimbo *",
+      "locationPlaceholder": "Guta, Dunhu",
+      "projectDescription": "Tsananguro yePurojekiti *",
+      "projectDescriptionPlaceholder": "Ndapota tsanangura purojekiti yako zvakadzama...",
+      "submitButton": "Tora Mutengo Wemahara"
+    }
+  },
+  "footer": {
+    "description": "Mauya kuKanguya Builders, chanangwa chako chakavimbika chemasevhisi ekuvaka nekugadziridza emhando yepamusoro. Nemakore anopfuura gumi namana muindasitiri yekuvaka, tinodada zvikuru nekupa mhinduro dzisina chakanaka.",
+    "topServices": "Masevhisi Edu Epamusoro",
+    "quickLinks": "Mabatanidzo Anokurumidza",
+    "contactInfo": "Ruzivo Rwekubata",
+    "copyright": "© 2024 Kanguya Builders. Kodzero dzese dzakachengetedzwa. | Masevhisi Ehunyanzvi Ekuvaka Nekugadziridza",
+    "links": {
+      "about": "Nezvedu"
+    },
+    "address": {
+      "line1": "21 Church Street, Langa",
+      "line2": "Cape Town 7455"
+    },
+    "hours": "Muv-Chis: 9AM-6PM"
+  },
+  "reviewForm": {
+    "title": "Govera Ruzivo Rwako",
+    "description": "Batsira vamwe uchigovera ruzivo rwako neKanguya Builders. Mhinduro dzako dzechokwadi dzakakosha kwatiri nevatengi vemangwana.",
+    "success": {
+      "title": "Tinotenda Ongororo Yako!",
+      "description": "Tinotenda ongororo yako!",
+      "message": "Ongororo yako yatumirwa uye ichabudiswa mushure mekuyera kwedu. Tinokoshesa mhinduro dzako uye dzinobatsira vamwe vatengi kuita sarudzo dzine ruzivo.",
+      "submitAnother": "Tumira Imwe Ongororo"
+    },
+    "error": {
+      "title": "Kutumira Ongororo Kwakundikana",
+      "description": "Ndapota edza zvakare gare gare."
+    },
+    "form": {
+      "fullName": "Zita Rizere *",
+      "fullNamePlaceholder": "Zita rako rizere",
+      "emailAddress": "Kero yeEmail *",
+      "emailPlaceholder": "yako@email.com",
+      "phoneNumber": "Nhamba yeRunhare",
+      "phonePlaceholder": "+27 XX XXX XXXX",
+      "serviceUsed": "Sevhisi Yakashandiswa *",
+      "serviceUsedPlaceholder": "Sarudza sevhisi yawakashandisa",
+      "projectLocation": "Nzvimbo yePurojekiti",
+      "locationPlaceholder": "semuenzaniso, Cape Town, Bellville",
+      "overallRating": "Chiyero Chose *",
+      "reviewTitle": "Musoro weOngororo *",
+      "reviewTitlePlaceholder": "semuenzaniso, Sevhisi yakanaka nebasa remhando",
+      "yourReview": "Ongororo Yako *",
+      "reviewPlaceholder": "Govera zvakadzama nezve ruzivo rwako neKanguya Builders. Ndeipiko sevhisi yawakashandisa? Huwandu, nguva, nesevhisi yevatengi zvakanga zvakaita sei?",
+      "recommendQuestion": "Ungakurudzira Kanguya Builders kune vamwe here? *",
+      "recommendPlaceholder": "Sarudza kurudziro yako"
+    }
+  },
+  "header": {
+    "tagline": "KUVAKA KWEHUNYANZVI",
+    "whatsappButton": "Taura paWhatsApp",
+    "getQuoteButton": "Tora Mutengo"
+  },
+  "common": {
+    "loading": "Kurodhera...",
+    "error": "Kukanganisa",
+    "success": "Kubudirira",
+    "submitting": "Kutumira...",
+    "submit": "Tumira",
+    "cancel": "Siisa",
+    "close": "Vhara",
+    "save": "Chengetedza",
+    "edit": "Gadziridza",
+    "delete": "Bvisa",
+    "view": "Ona",
+    "back": "Dzokera",
+    "next": "Rinotevera",
+    "previous": "Rakare",
+    "search": "Tsvaga",
+    "filter": "Chera",
+    "sort": "Ronga",
+    "selectLanguage": "Sarudza Mutauro"
+  }
+}
